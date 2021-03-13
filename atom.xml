@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>岛</title>
+  <title>WHY</title>
   <icon>https://www.gravatar.com/avatar/68aa72ca6da1af182f868a1618fa35d1</icon>
   <subtitle>欢迎来到海岳的博客</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-13T09:39:39.323Z</updated>
+  <updated>2021-03-13T15:52:01.662Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://example.com/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-03-13T09:24:38.263Z</published>
-    <updated>2021-03-13T09:39:39.323Z</updated>
+    <updated>2021-03-13T15:52:01.662Z</updated>
     
     
       
