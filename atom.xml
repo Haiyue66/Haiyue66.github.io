@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>岛</title>
+  <icon>https://www.gravatar.com/avatar/68aa72ca6da1af182f868a1618fa35d1</icon>
+  <subtitle>欢迎来到海岳的博客</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-03-12T16:42:59.583Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>吴海岳</name>
+    <email>1623870390@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/03/13/hello-world/"/>
+    <id>http://example.com/2021/03/13/hello-world/</id>
+    <published>2021-03-12T16:42:59.582Z</published>
+    <updated>2021-03-12T16:42:59.583Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://example.com/2021/03/11/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://example.com/2021/03/11/%E6%B5%8B%E8%AF%95/</id>
+    <published>2021-03-10T16:15:20.000Z</published>
+    <updated>2021-03-13T09:08:36.676Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;helloworld&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="-ceshi1 -ceshi2" scheme="http://example.com/categories/ceshi1-ceshi2/"/>
+    
+    
+    <category term="测试" scheme="http://example.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="测试1" scheme="http://example.com/tags/%E6%B5%8B%E8%AF%951/"/>
+    
+  </entry>
+  
+</feed>
