@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>写hexo博客时报错Template render error (unknown path)出现的原因及解决方法</title>
+    <url>/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>​    今天写博客的时候遇到这么个问题<img src="H:\blog\themes\ayer\source\images\博客图片\image-20210314113608373.png" alt="image-20210314113608373"></p>
+<p>​    我去网上查了下，原因是出现了类似<code>&#123;&#123;&#125;&#125;，&#123;% %&#125;</code>这样的无法转义的字符，只要将这些字符注释掉就行了，但是我检查了我的文档，并没有出现类似的字符，于是我就用最笨的方法，一段一段的去排查，最终发现，我的文档中出现了<code>&#123;#</code>这个字符，只要将这个字符注释掉，就可以正常hexo g了</p>
+]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>bug</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Typora教学</title>
     <url>/2021/03/14/Typora%E6%95%99%E5%AD%A6/</url>
     <content><![CDATA[<h1 id="Typora-编辑器-————-书写即为美学"><a href="#Typora-编辑器-————-书写即为美学" class="headerlink" title="Typora 编辑器 ———— 书写即为美学"></a>Typora 编辑器 ———— 书写即为美学</h1><p>今天讲授内容主要涉及PDF书中 17章第一小节和第五小节 18章第一小节</p>
@@ -182,7 +193,8 @@
         <category>日记</category>
       </categories>
       <tags>
-        <tag>-日记 -大学生活</tag>
+        <tag>日记</tag>
+        <tag>大学生活</tag>
       </tags>
   </entry>
 </search>

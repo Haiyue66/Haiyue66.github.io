@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-14T03:24:29.856Z</updated>
+  <updated>2021-03-14T03:46:06.107Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>写hexo博客时报错Template render error (unknown path)出现的原因及解决方法</title>
+    <link href="http://example.com/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>http://example.com/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2021-03-14T03:31:36.550Z</published>
+    <updated>2021-03-14T03:46:06.107Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​    今天写博客的时候遇到这么个问题&lt;img src=&quot;H:\blog\themes\ayer\source\images\博客图片\image-20210314113608373.png&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="markdown" scheme="http://example.com/tags/markdown/"/>
+    
+    <category term="bug" scheme="http://example.com/tags/bug/"/>
+    
+  </entry>
   
   <entry>
     <title>Typora教学</title>
@@ -61,7 +86,7 @@
     <link href="http://example.com/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://example.com/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-03-13T09:24:38.263Z</published>
-    <updated>2021-03-14T02:40:51.670Z</updated>
+    <updated>2021-03-14T03:29:59.219Z</updated>
     
     
       
@@ -77,7 +102,9 @@
     <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="-日记 -大学生活" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0-%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="大学生活" scheme="http://example.com/tags/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
