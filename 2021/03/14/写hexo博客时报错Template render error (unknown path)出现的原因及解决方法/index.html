@@ -76,7 +76,11 @@
     <div class="article-meta">
       <a href="/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" class="article-date">
   <time datetime="2021-03-14T03:31:36.550Z" itemprop="datePublished">2021-03-14</time>
-</a>   
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a> / <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0/markdown/">markdown</a> / <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0/markdown/bug/">bug</a>
+  </div>
+  
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
@@ -104,8 +108,9 @@
   
     <div class="article-entry" itemprop="articleBody">
        
-  <p>​    今天写博客的时候遇到这么个问题<img src="H:\blog\themes\ayer\source\images\博客图片\image-20210314113608373.png" alt="image-20210314113608373"></p>
+  <p>​    今天写博客的时候遇到这么个问题<img src="https://img.imgdb.cn/item/604d8be85aedab222cc866be.png" alt="image-20210314113608373"></p>
 <p>​    我去网上查了下，原因是出现了类似<code>&#123;&#123;&#125;&#125;，&#123;% %&#125;</code>这样的无法转义的字符，只要将这些字符注释掉就行了，但是我检查了我的文档，并没有出现类似的字符，于是我就用最笨的方法，一段一段的去排查，最终发现，我的文档中出现了<code>&#123;#</code>这个字符，只要将这个字符注释掉，就可以正常hexo g了</p>
+<p><img src="H:\blog\themes\ayer\source\images\博客图片\image-20210314113608373.png"></p>
  
       <!-- reward -->
       

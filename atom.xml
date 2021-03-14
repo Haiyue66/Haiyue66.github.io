@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-14T03:46:06.107Z</updated>
+  <updated>2021-03-14T04:07:29.786Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,18 +21,25 @@
     <link href="http://example.com/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
     <id>http://example.com/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
     <published>2021-03-14T03:31:36.550Z</published>
-    <updated>2021-03-14T03:46:06.107Z</updated>
+    <updated>2021-03-14T04:07:29.786Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;​    今天写博客的时候遇到这么个问题&lt;img src=&quot;H:\blog\themes\ayer\source\images\博客图片\image-20210314113608373.png&quot;</summary>
+    <summary type="html">&lt;p&gt;​    今天写博客的时候遇到这么个问题&lt;img src=&quot;https://img.imgdb.cn/item/604d8be85aedab222cc866be.png&quot; alt=&quot;image-20210314113608373&quot;&gt;&lt;/p&gt;
+&lt;p&gt;​   </summary>
         
       
     
     
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="markdown" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/markdown/"/>
+    
+    <category term="bug" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/markdown/bug/"/>
     
     
     <category term="markdown" scheme="http://example.com/tags/markdown/"/>
