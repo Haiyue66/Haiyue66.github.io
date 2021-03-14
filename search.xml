@@ -1,6 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Typora教学</title>
+    <url>/2021/03/14/Typora%E6%95%99%E5%AD%A6/</url>
+    <content><![CDATA[<h1 id="Typora-编辑器-————-书写即为美学"><a href="#Typora-编辑器-————-书写即为美学" class="headerlink" title="Typora 编辑器 ———— 书写即为美学"></a>Typora 编辑器 ———— 书写即为美学</h1><p>今天讲授内容主要涉及PDF书中 17章第一小节和第五小节 18章第一小节</p>
+<p>官方网站：<a href="https://www.typora.io/">https://www.typora.io/</a></p>
+<p>支持平台：</p>
+<ul>
+<li>Windows</li>
+<li>Linux</li>
+<li>OSX</li>
+</ul>
+<p>特点：</p>
+<ul>
+<li>完美支持 Github 的 Markdown 语法；</li>
+<li>人性化的书写方式：<ul>
+<li>表格的书写、挪动；</li>
+<li>图片，超链接，网页表格复制；</li>
+<li>目录生成；</li>
+</ul>
+</li>
+<li>支持 LeTex 公式书写；</li>
+<li>支持 Flowchart，Mermaid 等流程图绘制；</li>
+<li>emoji，高亮，备注，上标，下标等书写；</li>
+<li>生成网页，pdf，图片，甚至 word，LeTex 等格式。</li>
+</ul>
+<span id="more"></span>
+
+
+<h2 id="基本的带快捷键的-Markdown-书写演示"><a href="#基本的带快捷键的-Markdown-书写演示" class="headerlink" title="基本的带快捷键的 Markdown 书写演示"></a>基本的带快捷键的 Markdown 书写演示</h2><p><code>Ctrl 0</code> 到 <code>Ctrl 4</code>：普通文本、一级～四级标题；</p>
+<p><code>Ctrl B</code>：加粗，<strong>加粗测试</strong>；</p>
+<p><code>Ctrl I</code>：斜体，<em>斜体测试</em>；</p>
+<p><code>Ctrl U</code>：下划线，<u>下划线测试</u>；</p>
+<p><code>Shift Alt 5</code>：删除线，<del>删除线测试</del>；</p>
+<p><code>Shift Ctrl Tab键上面那个键 </code>：行内代码块，<code>行内代码块测试</code>；</p>
+<p><code>Ctrl K</code>：超链接，<a href="www.baidu.com">超链接测试</a>；还支持文章内锚点，请 <code>Ctrl </code> 点击此处 :arrow_right: [第二节](#基本的不带快捷键 Markdown 书写演示)；</p>
+<p><code>Ctrl T</code>：表格，支持拖拽移动、网页端表格复制转换：</p>
+<table>
+<thead>
+<tr>
+<th align="center">标题</th>
+<th align="center">数据一</th>
+<th align="center">数据二</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">表格测试</td>
+<td align="center">943</td>
+<td align="center">baka</td>
+</tr>
+</tbody></table>
+<p><code>Ctrl Shift Q</code>：引用：</p>
+<blockquote>
+<p>我需要三件东西：爱情、友谊和图书。然而这三者之间何其相通！</p>
+<p>炽热的爱情可以充实图书的内容，图书又是人们最忠实的朋友。</p>
+<p> —— 蒙田</p>
+</blockquote>
+<p><code>Shift Ctrl I</code>：图片：</p>
+<p><img src="https://static.pexels.com/photos/461797/pexels-photo-461797.jpeg" alt="风景"></p>
+<p><code>Shift Ctrl M</code>：公示块，快捷输入 LeTex 公式：<br>$$<br>Euler’s identity: e^{i\pi}+1=0<br>$$</p>
+<h2 id="基本的不带快捷键-Markdown-书写演示"><a href="#基本的不带快捷键-Markdown-书写演示" class="headerlink" title="基本的不带快捷键 Markdown 书写演示"></a>基本的不带快捷键 Markdown 书写演示</h2><p><strong>部分功能需要现在配置文件中开启才能使用</strong></p>
+<p>代码块（我居然不能转义那个字符，就 Tab 键上面那个）：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python3</span></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;List.txt&#x27;</span>, <span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>):</span><br><span class="line">		f.writelines(<span class="built_in">str</span>(i))  </span><br><span class="line">	print(<span class="string">&#x27;成功写入数列&#x27;</span>)</span><br><span class="line">os.system(<span class="string">&#x27;rm ./List.txt&#x27;</span>)</span><br><span class="line">print(<span class="string">&#x27;成功删除文件&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<p>无序、有序、任务列表：</p>
+<ul>
+<li>酒石酸菌</li>
+<li>玄墨之蝶</li>
+</ul>
+<ol>
+<li>HTML</li>
+<li>Python 3</li>
+</ol>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 1.12.2 教程计划</li>
+<li><input checked="" disabled="" type="checkbox"> Weblate 翻译计划</li>
+<li><input disabled="" type="checkbox"> All The Mods 3 实况计划</li>
+</ul>
+<p>参考链接：</p>
+<p>​    通过培养试验研究了有机酸对铅、镉的毒害影响，结果表明柠檬酸对铅[^1]，酒石酸对镉有较明显解毒作用[^2]。用逐步提取法研究萝卜根叶内重金属存在的化学形态 ，有机酸处理并不影响各形态铅的优势顺序 ，但各形态铅的浓度或相对百分率发生了变化。</p>
+<p>[^1]: 陈苏. 污染土壤中镉、铅的活化及植物有效性研究[D]. 中国科学院沈阳应用生态研究所, 2007.<br>[^2]: 陈英旭, 林琦, 陆芳,等. 有机酸对铅、镉植株危害的解毒作用研究[J]. 环境科学学报, 2000, 20(4):467-472.</p>
+<p>上标下标：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">上标：X^2^</span><br><span class="line">下标：H~2~O</span><br></pre></td></tr></table></figure>
+<p>X^2^, H<del>2</del>O</p>
+<p>高亮：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">本节课重点：&#x3D;&#x3D;第六、七章不考&#x3D;&#x3D;，第三章出题较多，&#x3D;&#x3D;平时分占 30%&#x3D;&#x3D;</span><br></pre></td></tr></table></figure>
+<p>本节课重点：==第六、七章不考==，第三章出题较多，==平时分占 30%==</p>
+<p>注释：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--这一段不要显示出来--&gt;</span><br></pre></td></tr></table></figure>
+<!--这一段不要显示出来-->
+
+
+
+<p>内联公式：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$e^&#123;i\pi&#125;+1&#x3D;0$</span><br></pre></td></tr></table></figure>
+
+<p>$e^{i\pi}+1=0$</p>
+<p>分割线：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>我绝不会弃坑的！</p>
+<hr>
+<p>:arrow_up: 上面的都是假话</p>
+<p>emoji 图标：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">:arrow_heading_down: :arrow_heading_up:</span><br><span class="line">:ab: :blue_heart: :jack_o_lantern:</span><br><span class="line">:ballot_box_with_check: :fork_and_knife:</span><br></pre></td></tr></table></figure>
+
+<p>:arrow_heading_down: :arrow_heading_up:<br>:ab: :blue_heart: :jack_o_lantern:<br>:ballot_box_with_check: :fork_and_knife:</p>
+<p>目录生成：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[toc]</span><br></pre></td></tr></table></figure>
+
+<p>[TOC]</p>
+<h1 id="Markdown-拓展功能"><a href="#Markdown-拓展功能" class="headerlink" title="Markdown 拓展功能"></a>Markdown 拓展功能</h1><p>HTML 原生支持，目前只支持 img 标签，用以自定义图片大小和缩放：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;img src&#x3D;&quot;https:&#x2F;&#x2F;static.pexels.com&#x2F;photos&#x2F;461797&#x2F;pexels-photo-461797.jpeg width&#x3D;&quot;550px&quot; alt&#x3D;&quot;test&quot;&gt;&lt;&#x2F;img&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://static.pexels.com/photos/461797/pexels-photo-461797.jpeg" alt="test" width="550px"></img></p>
+<p>LaTex 公式支持，包括 mhchem，AMSmath，BBox：</p>
+<p>mhchem：<br>$$<br>\ce{SO4^2- + Ba^2+ -&gt; BaSO4 v}<br>$$<br>BBox：<br>$$<br>\bbox[5px,border:2px solid red]{AB^2 +AC^2 = BC^2}<br>$$</p>
+<p>流程图支持，内置了 Flowchart，Sequence，Mermaid 引擎，支持多种多样的流程图、时序图、甘特图：</p>
+<ul>
+<li>流程图（Flowchart）</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">st&#x3D;&gt;start: Start:&gt;http:&#x2F;&#x2F;www.google.com[blank]</span><br><span class="line">e&#x3D;&gt;end:&gt;http:&#x2F;&#x2F;www.google.com</span><br><span class="line">op1&#x3D;&gt;operation: My Operation</span><br><span class="line">sub1&#x3D;&gt;subroutine: My Subroutine</span><br><span class="line">cond&#x3D;&gt;condition: Yes</span><br><span class="line">or No?:&gt;http:&#x2F;&#x2F;www.google.com</span><br><span class="line">io&#x3D;&gt;inputoutput: catch something...</span><br><span class="line"></span><br><span class="line">st-&gt;op1-&gt;cond</span><br><span class="line">cond(yes)-&gt;io-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op1</span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>流程图（Mermaid）</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph TD;</span><br><span class="line">    开始--&gt;条件B;</span><br><span class="line">    条件A--&gt;条件C;</span><br><span class="line">    条件B--&gt;条件D;</span><br><span class="line">    条件C--&gt;条件D;</span><br><span class="line">    条件A--&gt;条件D;</span><br><span class="line">    开始--&gt;条件C;</span><br><span class="line">    开始--&gt;条件A;</span><br><span class="line">    条件D--&gt;结束;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>时序图（Mermaid）</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant Alice</span><br><span class="line">    participant Bob</span><br><span class="line">    Alice-&gt;&gt;John: Hello John, how are you?</span><br><span class="line">    loop Healthcheck</span><br><span class="line">        John-&gt;&gt;John: Fight against hypochondria</span><br><span class="line">    end</span><br><span class="line">    Note right of John: Rational thoughts &lt;br&#x2F;&gt;prevail...</span><br><span class="line">    John--&gt;&gt;Alice: Great!</span><br><span class="line">    John-&gt;&gt;Bob: How about you?</span><br><span class="line">    Bob--&gt;&gt;John: Jolly good!</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>时序图（Sequence）</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Alice-&gt;&gt;John: Hello John, how are you?</span><br><span class="line">Note right of John: Rational thoughts</span><br><span class="line">John--&gt;&gt;Alice: Great!</span><br><span class="line">John-&gt;&gt;Bob: How about you?</span><br><span class="line">Bob--&gt;&gt;John: Jolly good!</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>甘特图（Mermaid）</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">gantt</span><br><span class="line">        dateFormat  YYYY-MM-DD</span><br><span class="line">        title Adding GANTT diagram functionality to mermaid</span><br><span class="line">        section A section</span><br><span class="line">        Completed task            :done,    des1, 2014-01-06,2014-01-08</span><br><span class="line">        Active task               :active,  des2, 2014-01-09, 3d</span><br><span class="line">        Future task               :         des3, after des2, 5d</span><br><span class="line">        Future task2               :         des4, after des3, 5d</span><br><span class="line">        section Critical tasks</span><br><span class="line">        Completed task in the critical line :crit, done, 2014-01-06,24h</span><br><span class="line">        Implement parser and jison          :crit, done, after des1, 2d</span><br><span class="line">        Create tests for parser             :crit, active, 3d</span><br><span class="line">        Future task in critical line        :crit, 5d</span><br><span class="line">        Create tests for renderer           :2d</span><br><span class="line">        Add to mermaid                      :1d</span><br></pre></td></tr></table></figure>
+
+<hr>
+<ul>
+<li>其他 Mermaid 图（目前还有点问题，不建议使用）</li>
+<li>Class diagram</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">Class01 &lt;|-- AveryLongClass : Cool</span><br><span class="line">Class03 *-- Class04</span><br><span class="line">Class05 o-- Class06</span><br><span class="line">Class07 .. Class08</span><br><span class="line">Class09 --&gt; C2 : Where am i?</span><br><span class="line">Class09 --* C3</span><br><span class="line">Class09 --|&gt; Class07</span><br><span class="line">Class07 : equals()</span><br><span class="line">Class07 : Object[] elementData</span><br><span class="line">Class01 : size()</span><br><span class="line">Class01 : int chimp</span><br><span class="line">Class01 : int gorilla</span><br><span class="line">Class08 &lt;--&gt; C2: Cool label</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Git</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">gitGraph:</span><br><span class="line">options</span><br><span class="line">&#123;</span><br><span class="line">    &quot;nodeSpacing&quot;: 100,</span><br><span class="line">    &quot;nodeRadius&quot;: 10</span><br><span class="line">&#125;</span><br><span class="line">end</span><br><span class="line">commit</span><br><span class="line">branch newbranch</span><br><span class="line">checkout newbranch</span><br><span class="line">commit</span><br><span class="line">commit</span><br><span class="line">checkout master</span><br><span class="line">commit</span><br><span class="line">commit</span><br><span class="line">merge newbranch</span><br></pre></td></tr></table></figure>
+
+<h2 id="主题替换"><a href="#主题替换" class="headerlink" title="主题替换"></a>主题替换</h2><p>访问：<a href="http://theme.typora.io/">http://theme.typora.io/</a></p>
+<h2 id="文章导出"><a href="#文章导出" class="headerlink" title="文章导出"></a>文章导出</h2><ul>
+<li>图片（非常适合手机阅读）</li>
+<li>PDF</li>
+<li>HTML（可选择是否带样式表）</li>
+<li>其他需要第三方库支持</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>markdown语法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一个博客</title>
     <url>/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>​    时隔一年，我终于再次把博客搭建起来了，上一次玩博客还是在2019年年底2020年初的时候，那个时候看到别人漂亮的博客，心里顿时痒痒的，也忍不住自己去搭建一个漂亮的博客，但是还没等我把要学习的技术学完，我就不得不放弃博客，转去考研了，现在是2021年3月13号，考研结束了，公务员相关的考试也都考的七七八八了，学校里面教的东西又恰好是搭建博客所要学习的内容，我不禁又重新燃起了写博客的欲望，在我的舍友余乐韬的帮助下，我花了将近5个小时，终于将这个博客搭建成功了.虽然我以前已经搭建过一次，但是无奈时间过得太久了，许多当时遇到的坑，我现在也会遇到，但是我已经不记得我当时是怎么解决的了，如今不得不重新再踩一遍。</p>
@@ -10,252 +183,6 @@
       </categories>
       <tags>
         <tag>-日记 -大学生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>markdown语法</title>
-    <url>/2021/03/14/markdown%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<p>目录</p>
-<ul>
-<li><ul>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#1-%E5%BF%AB%E6%8D%B7%E9%94%AE">1. 快捷键</a></li>
-<li>\2. 基本语法<ul>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#21-%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E6%96%9C%E4%BD%93%E7%B2%97%E4%BD%93%E5%88%A0%E9%99%A4%E7%BA%BF">2.1 字体设置斜体、粗体、删除线</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#22-%E5%88%86%E7%BA%A7%E6%A0%87%E9%A2%98">2.2 分级标题</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#23-%E9%93%BE%E6%8E%A5">2.3 链接</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#24-%E5%88%86%E5%89%B2%E7%BA%BF">2.4 分割线</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#25-%E4%BB%A3%E7%A0%81%E5%9D%97">2.5 代码块</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#26-%E5%BC%95%E7%94%A8">2.6 引用</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#27-%E5%88%97%E8%A1%A8">2.7 列表</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#28-%E8%A1%A8%E6%A0%BC">2.8 表格</a></li>
-</ul>
-</li>
-<li>\3. 常用技巧<ul>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#31-%E6%8D%A2%E8%A1%8C">3.1 换行</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#32-%E7%BC%A9%E8%BF%9B%E5%AD%97%E7%AC%A6">3.2 缩进字符</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#33-%E7%89%B9%E6%AE%8A%E7%AC%A6%E5%8F%B7">3.3 特殊符号</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#34-%E5%AD%97%E4%BD%93%E5%AD%97%E5%8F%B7%E4%B8%8E%E9%A2%9C%E8%89%B2">3.4 字体、字号与颜色</a></li>
-<li>3.5 链接的高级操作<ul>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#1%E8%A1%8C%E5%86%85%E5%BC%8F">1.行内式</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#2%E5%8F%82%E8%80%83%E5%BC%8F%E9%93%BE%E6%8E%A5">2.参考式链接</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#3%E5%86%85%E5%AE%B9%E7%9B%AE%E5%BD%95">3.内容目录</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#4%E9%94%9A%E7%82%B9">4.锚点</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#5%E6%B3%A8%E8%84%9A">5.注脚</a></li>
-</ul>
-</li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#36-%E8%83%8C%E6%99%AF%E8%89%B2">3.6 背景色</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#37-emoji%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7">3.7 emoji表情符号</a></li>
-</ul>
-</li>
-<li>\4. 高端用法<ul>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#41-latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">4.1 Latex数学公式</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#42-%E6%B5%81%E7%A8%8B%E5%9B%BE">4.2 流程图</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#43-%E5%88%B6%E4%BD%9C%E4%B8%80%E4%BB%BD%E5%BE%85%E5%8A%9E%E4%BA%8B%E5%AE%9C-todo-%E5%88%97%E8%A1%A8">4.3 制作一份待办事宜—-Todo 列表</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#44-%E7%BB%98%E5%88%B6-%E5%BA%8F%E5%88%97%E5%9B%BE">4.4 绘制 序列图</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#45-%E7%BB%98%E5%88%B6-%E7%94%98%E7%89%B9%E5%9B%BE">4.5 绘制 甘特图</a></li>
-</ul>
-</li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144#5-markdown%E5%B7%A5%E5%85%B7">5. Markdown工具</a></li>
-</ul>
-</li>
-</ul>
-<span id="more"></span>
-
-<p><strong>前言</strong><br>写过博客或者github上面的文档的，应该知道Markdown语法的重要性，不知道的朋友们也别着急，一篇博客轻松搞定Markdown语法。话说这个语法超级简单，一看就会，不信你点进来看看。</p>
-<h2 id="1-快捷键"><a href="#1-快捷键" class="headerlink" title="1. 快捷键"></a>1. 快捷键</h2><p><a href="https://blog.csdn.net/u014061630/article/details/81359144#00">跳转到目录</a></p>
-<table>
-<thead>
-<tr>
-<th>功能</th>
-<th>快捷键</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>加粗</td>
-<td>Ctrl + B</td>
-</tr>
-<tr>
-<td>斜体</td>
-<td>Ctrl + I</td>
-</tr>
-<tr>
-<td>引用</td>
-<td>Ctrl + Q</td>
-</tr>
-<tr>
-<td>插入链接</td>
-<td>Ctrl + L</td>
-</tr>
-<tr>
-<td>插入代码</td>
-<td>Ctrl + K</td>
-</tr>
-<tr>
-<td>插入图片</td>
-<td>Ctrl + G</td>
-</tr>
-<tr>
-<td>提升标题</td>
-<td>Ctrl + H</td>
-</tr>
-<tr>
-<td>有序列表</td>
-<td>Ctrl + O</td>
-</tr>
-<tr>
-<td>无序列表</td>
-<td>Ctrl + U</td>
-</tr>
-<tr>
-<td>横线</td>
-<td>Ctrl + R</td>
-</tr>
-<tr>
-<td>撤销</td>
-<td>Ctrl + Z</td>
-</tr>
-<tr>
-<td>重做</td>
-<td>Ctrl + Y</td>
-</tr>
-</tbody></table>
-<h2 id="2-基本语法"><a href="#2-基本语法" class="headerlink" title="2. 基本语法"></a>2. 基本语法</h2><p><a href="https://blog.csdn.net/u014061630/article/details/81359144#00">跳转到目录</a></p>
-<h3 id="2-1-字体设置斜体、粗体、删除线"><a href="#2-1-字体设置斜体、粗体、删除线" class="headerlink" title="2.1 字体设置斜体、粗体、删除线"></a>2.1 字体设置斜体、粗体、删除线</h3><p><em>这里是文字</em><br><em>这里是文字</em><br><strong>这里是文字</strong><br><em><strong>这里是文字</strong></em><br><del>这里是文字</del></p>
-<p><img src="https://img-blog.csdn.net/20180802154402427?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="2-2-分级标题"><a href="#2-2-分级标题" class="headerlink" title="2.2 分级标题"></a>2.2 分级标题</h3><p><a href="https://blog.csdn.net/u014061630/article/details/81359144#00">跳转到目录</a><br><strong>写法1：</strong></p>
-<p># 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题  这个写法和 <strong>文字</strong>效果是一样的</p>
-<p><img src="https://img-blog.csdn.net/2018080215454373?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p><strong>写法2：</strong></p>
-<h1 id="这是一个一级标题"><a href="#这是一个一级标题" class="headerlink" title="这是一个一级标题"></a>这是一个一级标题</h1><p>或者</p>
-<p>二级标题<br>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
-<p><img src="https://img-blog.csdn.net/20180802154915835?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="2-3-链接"><a href="#2-3-链接" class="headerlink" title="2.3 链接"></a>2.3 链接</h3><p><a href="https://blog.csdn.net/u014061630/article/details/81359144#00">跳转到目录</a><br>（1）插入本地图片链接<br>语法规则，有两种写法：<br><img src="https://img-blog.csdn.net/20180802155057285?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>注意：这个图片描述可以不写。</p>
-<p>示例图如下：<br><img src="https://img-blog.csdn.net/20180802155239626?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>（2）插入互联网上图片<br>语法规则：<br><img src="https://img-blog.csdn.net/20180802155336302?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>注意：这个图片描述可以不写。</p>
-<p>示例如下：<br><img src="https://img-blog.csdn.net/20180802155413115?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>（3）自动连接<br>Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用&lt;&gt;包起来， Markdown 就会自动把它转成链接。也可以直接写，也是可以显示成链接形式的<br>例如：<br><img src="https://img-blog.csdn.net/20180802155459346?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="2-4-分割线"><a href="#2-4-分割线" class="headerlink" title="2.4 分割线"></a>2.4 分割线</h3><p><a href="https://blog.csdn.net/u014061630/article/details/81359144#00">跳转到目录</a><br>你可以在一行中用三个以上的星号(*)、减号(-)、底线(_)来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。<br><img src="https://img-blog.csdn.net/20180802155556110?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="2-5-代码块"><a href="#2-5-代码块" class="headerlink" title="2.5 代码块"></a>2.5 代码块</h3><p><a href="https://blog.csdn.net/u014061630/article/details/81359144#00">跳转到目录</a><br>对于程序员来说这个功能是必不可少的，插入程序代码的方式有两种，一种是利用缩进(tab), 另一种是利用英文“`”符号（一般在ESC键下方，和~同一个键）包裹代码。</p>
-<p>（1）代码块：缩进 4 个空格或是 1 个制表符。效果如下：<br><img src="https://img-blog.csdn.net/20180802155701855?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>（2）行内式：如果在一个行内需要引用代码，只要用反引号`引起来就好（一般在ESC键下方，和~同一个键）<br><img src="https://img-blog.csdn.net/20180802155907712?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>（3）多行代码块与语法高亮：在需要高亮的代码块的前一行及后一行使用三个单反引号“`”包裹，就可以了。<br>示例如下：<br><img src="https://img-blog.csdn.net/20180802160015673?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>（4）代码块里面包含html代码<br>在代码区块里面， &amp; 、 &lt; 和 &gt; 会自动转成 HTML 实体，这样的方式让你非常容易使用 Markdown 插入范例用的 HTML 原始码，只需要复制贴上，剩下的 Markdown 都会帮你处理。</p>
-<p><strong>注意：简书代码块里不支持html。</strong></p>
-<p>示例如下：<br><img src="https://img-blog.csdn.net/20180802160155483?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="2-6-引用"><a href="#2-6-引用" class="headerlink" title="2.6 引用"></a>2.6 引用</h3><p><a href="https://blog.csdn.net/u014061630/article/details/81359144#00">跳转到目录</a><br>在被引用的文本前加上&gt;符号，以及一个空格就可以了，如果只输入了一个&gt;符号会产生一个空白的引用。</p>
-<p>（1）基本使用<br>使用如下图所示：<br><img src="https://img-blog.csdn.net/20180802160324418?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>（2）引用的嵌套使用<br>使用如图所示：<br><img src="https://img-blog.csdn.net/20180802160343802?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>（3）引用其它要素<br>引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等。<br>使用如图所示：<br><img src="https://img-blog.csdn.net/20180802160421785?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="2-7-列表"><a href="#2-7-列表" class="headerlink" title="2.7 列表"></a>2.7 列表</h3><p><a href="https://blog.csdn.net/u014061630/article/details/81359144#00">跳转到目录</a><br>（1）无序列表<br>使用 *，+，- 表示无序列表。<br>注意：符号后面一定要有一个空格，起到缩进的作用。<br><img src="https://img-blog.csdn.net/2018080216053733?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>（2）有序列表<br>使用数字和一个英文句点表示有序列表。<br>注意：英文句点后面一定要有一个空格，起到缩进的作用。<br><img src="https://img-blog.csdn.net/2018080216061165?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>（3）无序列表和有序列表同时使用<br><img src="https://img-blog.csdn.net/20180802160735370?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>（4）列表和其它要素混合使用<br>列表不光可以单独使用，也可以使用其他的 Markdown 语法，包括标题、引用、代码区块等。</p>
-<p><strong>注意事项：</strong></p>
-<blockquote>
-<p>（1）加粗效果不能直接用于列表标题里面，但是可以嵌套在列表里面混合使用。<br>（2）列表中包含代码块（前面加2个tab或者8个空格，并且需要空一行，否则不显示）。<br>.<br>使用示例如下图：<br><img src="https://img-blog.csdn.net/20180802160851570?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-</blockquote>
-<p>（5）注意事项<br>在使用列表时，只要是数字后面加上英文的点，就会无意间产生列表，比如2017.12.30 这时候想表达的是日期，有些软件把它被误认为是列表。解决方式：在每个点前面加上\就可以了。如下图所示：<br><img src="https://img-blog.csdn.net/20180802161039348?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="2-8-表格"><a href="#2-8-表格" class="headerlink" title="2.8 表格"></a>2.8 表格</h3><p><a href="https://blog.csdn.net/u014061630/article/details/81359144#00">跳转到目录</a><br>表格的基本写法很简单，就跟表格的形状很相似：<br><img src="https://img-blog.csdn.net/20180802161209660?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>表格对齐方式：我们可以指定表格单元格的对齐方式，冒号在左边表示左对齐，右边表示有对齐，两边都有表示居中。</p>
-<p>如下图所示：<br><img src="https://img-blog.csdn.net/20180802161235917?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h2 id="3-常用技巧"><a href="#3-常用技巧" class="headerlink" title="3. 常用技巧"></a>3. 常用技巧</h2><h3 id="3-1-换行"><a href="#3-1-换行" class="headerlink" title="3.1 换行"></a>3.1 换行</h3><p>方法1: 连续两个以上空格+回车<br>方法2：使用html语言换行标签：</p>
-<h3 id="3-2-缩进字符"><a href="#3-2-缩进字符" class="headerlink" title="3.2 缩进字符"></a>3.2 缩进字符</h3><p>不断行的空白格  或  半角的空格   或  全角的空格   或  <br><img src="https://img-blog.csdn.net/20180802162415963?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="3-3-特殊符号"><a href="#3-3-特殊符号" class="headerlink" title="3.3 特殊符号"></a>3.3 特殊符号</h3><p>（1）对于 Markdown 中的语法符号，前面加反斜线\即可显示符号本身。</p>
-<p>示例如下：<br><img src="https://img-blog.csdn.net/20180802162507298?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>（2）其他特殊字符，示例如下：<br><img src="https://img-blog.csdn.net/20180802162542616?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>想知道字符对应的Unicode码，可以看这个网站：<a href="https://unicode-table.com/cn/">https://unicode-table.com/cn/</a></p>
-<p><strong>附上几个工具对特殊字符的支持的对比图:</strong><br><img src="https://img-blog.csdn.net/20180802162726962?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="3-4-字体、字号与颜色"><a href="#3-4-字体、字号与颜色" class="headerlink" title="3.4 字体、字号与颜色"></a>3.4 字体、字号与颜色</h3><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过类似HTML的标记语法，它可以使普通文本内容具有一定的格式。但是它本身是不支持修改字体、字号与颜色等功能的！</p>
-<p>CSDN-markdown编辑器是其衍生版本，扩展了Markdown的功能（如表格、脚注、内嵌HTML等等）！对，就是内嵌HTML，接下来要讲的功能就需要使用内嵌HTML的方法来实现。</p>
-<p>字体，字号和颜色编辑如下代码<br><img src="https://img-blog.csdn.net/20180802162832307?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>具体颜色分类及标记请看下表：<br><img src="https://img-blog.csdn.net/20180802162907453?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="3-5-链接的高级操作"><a href="#3-5-链接的高级操作" class="headerlink" title="3.5 链接的高级操作"></a>3.5 链接的高级操作</h3><p>链接的高级操作（这个需要掌握一下，很有用）</p>
-<h4 id="1-行内式"><a href="#1-行内式" class="headerlink" title="1.行内式"></a>1.行内式</h4><p>这个在上文第二条基本语法的 链接这个小节已经过，这里就不继续讲解了。</p>
-<h4 id="2-参考式链接"><a href="#2-参考式链接" class="headerlink" title="2.参考式链接"></a>2.参考式链接</h4><p>在文档要插入图片的地方写![图片或网址链接][标记]，在文档的最后写上[标记]:图片地址 “标题”。（最后这个”标题”可以不填写）</p>
-<p>示例如下：<br><img src="https://img-blog.csdn.net/2018080216303854?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h4 id="3-内容目录"><a href="#3-内容目录" class="headerlink" title="3.内容目录"></a>3.内容目录</h4><p>在段落中填写 [TOC] 以显示全文内容的目录结构。</p>
-<h4 id="4-锚点"><a href="#4-锚点" class="headerlink" title="4.锚点"></a>4.锚点</h4><p>锚点其实就是页内超链接。比如我这里写下一个锚点，点击回到目录，就能跳转到目录。 在目录中点击这一节，就能跳过来。</p>
-<p><strong>注意</strong>：在简书中使用锚点时，点击会打开一个新的当前页面，虽然锚点用的不是很舒服，但是可以用注脚实现这个功能。</p>
-<p><strong>语法说明：</strong><br><code>在你准备跳转到的指定标题后插入锚点&#123;#标记&#125;，然后在文档的其它地方写上连接到锚点的链接。`
-
-使用如下图所示：
-![这里写图片描述](https://img-blog.csdn.net/20180802163343495?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-
-#### 5.注脚
-
-**语法说明：**
-在需要添加注脚的文字后加上脚注名字[^注脚名字],称为加注。 然后在文本的任意位置(一般在最后)添加脚注，脚注前必须有对应的脚注名字。
-
-示例如下：
-![这里写图片描述](https://img-blog.csdn.net/20180802163447739?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-注：
-
-`> 1. 脚注自动被搬运到最后面，请到文章末尾查看，并且脚注后方的链接可以直接跳转回到加注的地方。`
-`> 2. 由于简书不支持锚点，所以可以用注脚实现页面内部的跳转。`
-
-### 3.6 背景色
-
-Markdown本身不支持背景色设置，需要采用内置html的方式实现：借助 table, tr, td 等表格标签的 bgcolor 属性来实现背景色的功能。举例如下：
-
-<table><tr><td bgcolor=orange>背景色是：orange</td></tr></table>
-
-![这里写图片描述](https://img-blog.csdn.net/20180802164159599?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-
-### 3.7 emoji表情符号
-
-emoji表情使用:EMOJICODE:的格式，详细列表可见
-https://www.webpagefx.com/tools/emoji-cheat-sheet/
-
-当然现在很多markdown工具或者网站都不支持。
-
-下面列出几个平台的对比：
-
-| 工具或网站  | 是否支持emoji表情符号      |
-| ----------- | -------------------------- |
-| 简书        | 否                         |
-| MarkDownPad | 否（不知道付费版是否支持） |
-| 有道云笔记  | 否                         |
-| zybuluo.com | 否                         |
-| github      | 是                         |
-
-![这里写图片描述](https://img-blog.csdn.net/20180802164508437?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-
-## 4. 高端用法
-
-### 4.1 Latex数学公式
-
-**使用LaTex数学公式**
-
-1.行内公式：使用两个”$”符号引用公式:
-
-`$公式$`
-
-`2.行间公式：使用两对“$$”符号引用公式：`
-
-
-
-公式公式
-
-
-
-`输入$\sqrt&#123;x^&#123;2&#125;&#125;$</code><br><code>显示结果是x2−−√x2 </code></p>
-<p>具体可以参考 markdown编辑器使用LaTex数学公式（<a href="https://link.jianshu.com/?t=http://blog.csdn.net/testcs_dn/article/details/44229085%EF%BC%89">https://link.jianshu.com/?t=http%3A%2F%2Fblog.csdn.net%2Ftestcs_dn%2Farticle%2Fdetails%2F44229085）</a></p>
-<p>latex数学符号详见：<a href="https://www.mohu.org/info/symbols/symbols.htm">常用数学符号的 LaTeX 表示方法</a></p>
-<h3 id="4-2-流程图"><a href="#4-2-流程图" class="headerlink" title="4.2 流程图"></a>4.2 流程图</h3><p>这里简单介绍一下流程图的语法，仅作为了解，如下图所示：<br><img src="https://img-blog.csdn.net/20180802165820199?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="4-3-制作一份待办事宜—-Todo-列表"><a href="#4-3-制作一份待办事宜—-Todo-列表" class="headerlink" title="4.3 制作一份待办事宜—-Todo 列表"></a>4.3 制作一份待办事宜—-Todo 列表</h3><p><img src="https://img-blog.csdn.net/20180802165859799?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="4-4-绘制-序列图"><a href="#4-4-绘制-序列图" class="headerlink" title="4.4 绘制 序列图"></a>4.4 绘制 序列图</h3><p><img src="https://img-blog.csdn.net/2018080216592352?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h3 id="4-5-绘制-甘特图"><a href="#4-5-绘制-甘特图" class="headerlink" title="4.5 绘制 甘特图"></a>4.5 绘制 甘特图</h3><p><img src="https://img-blog.csdn.net/20180802165941601?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<h2 id="5-Markdown工具"><a href="#5-Markdown工具" class="headerlink" title="5. Markdown工具"></a>5. Markdown工具</h2><p>1.markdownpad软件，就是利用markdown语言写笔记的。官网下载地址：<a href="http://markdownpad.com/">http://markdownpad.com/</a></p>
-<p>软件安装之后的示意图如下图所示：<br><img src="https://img-blog.csdn.net/20180802170021581?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>2.有道云笔记支持markdownpad语法。官方网址：<a href="http://note.youdao.com/">http://note.youdao.com/</a> 它有在线网页版以及PC端可以下载。当然有道云笔记也支持html语法。</p>
-<p>网页版使用markdown示例图如下：<br><img src="https://img-blog.csdn.net/20180802170102176?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTQwNjE2MzA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
-<p>3.在线编辑markdown <a href="https://www.zybuluo.com/mdeditor">https://www.zybuluo.com/mdeditor</a></p>
-<p>本文参考文章：</p>
-<p><a href="http://blog.csdn.net/u010177286/article/details/50358720">http://blog.csdn.net/u010177286/article/details/50358720</a></p>
-<p><a href="https://www.zybuluo.com/mdeditor">https://www.zybuluo.com/mdeditor</a></p>
-<p><a href="http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C#title-18">http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C#title-18</a></p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>-markdown语法</tag>
       </tags>
   </entry>
 </search>
