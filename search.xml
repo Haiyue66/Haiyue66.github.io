@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>写hexo博客时报错Template render error (unknown path)出现的原因及解决方法</title>
-    <url>/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p>​    今天写博客的时候遇到这么个问题<img src="https://img.imgdb.cn/item/604d8be85aedab222cc866be.png" alt="1"></p>
-<p>​    我去网上查了下，原因是出现了类似<code>&#123;&#123;&#125;&#125;，&#123;% %&#125;</code>这样的无法转义的字符，只要将这些字符注释掉就行了，但是我检查了我的文档，并没有出现类似的字符，于是我就用最笨的方法，一段一段的去排查，最终发现，我的文档中出现了<code>&#123;#</code>这个字符，只要将这个字符注释掉，就可以正常hexo g了</p>
+    <title>3月15号计算机二级纠错</title>
+    <url>/2021/03/15/3%E6%9C%8815%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<h2 id="JOptionPane-showMessageDialog（Component-parentComponent-Object-message）"><a href="#JOptionPane-showMessageDialog（Component-parentComponent-Object-message）" class="headerlink" title="JOptionPane.showMessageDialog（Component parentComponent, Object message）"></a>JOptionPane.showMessageDialog（Component parentComponent, Object message）</h2><p>讲解连接： <a href="https://blog.csdn.net/weixin_43876121/article/details/100982551">https://blog.csdn.net/weixin_43876121/article/details/100982551</a></p>
+<h2 id="System-exit-0-用法与作用"><a href="#System-exit-0-用法与作用" class="headerlink" title="System.exit(0)用法与作用"></a>System.exit(0)用法与作用</h2><p>讲解链接： <a href="https://blog.csdn.net/qq_37894053/article/details/82802606">https://blog.csdn.net/qq_37894053/article/details/82802606</a></p>
+<h3 id="compareTo-方法"><a href="#compareTo-方法" class="headerlink" title="compareTo()方法"></a>compareTo()方法</h3><p>讲解链接: <a href="https://www.cnblogs.com/wxbblogs/p/6815927.html">https://www.cnblogs.com/wxbblogs/p/6815927.html</a></p>
+<p>​                <a href="https://www.cnblogs.com/codeggs/p/11302541.html">https://www.cnblogs.com/codeggs/p/11302541.html</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 第三章;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_1</span> <span class="keyword">extends</span> <span class="title">TT</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">   <span class="comment">//*********Found**********</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      Java_1 t = <span class="keyword">new</span> Java_1(<span class="string">&quot;小龙&quot;</span>);<span class="comment">//程序的入口，因为是带参数的，所以只会执行带参构造，不会执行无参构造</span></span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Java_1</span><span class="params">(String s)</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      <span class="keyword">super</span>(s);<span class="comment">//先执行父类带参数的构造</span></span><br><span class="line">      System.out.println(<span class="string">&quot;您好吗？&quot;</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Java_1</span><span class="params">()</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      <span class="keyword">this</span>(<span class="string">&quot;我是文朋&quot;</span>);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TT</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">TT</span><span class="params">()</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      System.out.println(<span class="string">&quot;多高兴啊!&quot;</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">TT</span><span class="params">(String s)</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">   <span class="comment">//*********Found**********</span></span><br><span class="line">      <span class="keyword">this</span>();<span class="comment">//执行本类中不带参数的构造</span></span><br><span class="line">      System.out.println(<span class="string">&quot;我是&quot;</span>+s);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
 ]]></content>
       <categories>
-        <category>学习</category>
-        <category>markdown</category>
-        <category>bug</category>
+        <category>计算机二级</category>
       </categories>
       <tags>
-        <tag>markdown</tag>
-        <tag>bug</tag>
+        <tag>计算机二级</tag>
       </tags>
   </entry>
   <entry>
@@ -200,6 +203,22 @@
       <tags>
         <tag>日记</tag>
         <tag>大学生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写hexo博客时报错Template render error (unknown path)出现的原因及解决方法</title>
+    <url>/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>​    今天写博客的时候遇到这么个问题<img src="https://img.imgdb.cn/item/604d8be85aedab222cc866be.png" alt="1"></p>
+<p>​    我去网上查了下，原因是出现了类似<code>&#123;&#123;&#125;&#125;，&#123;% %&#125;</code>这样的无法转义的字符，只要将这些字符注释掉就行了，但是我检查了我的文档，并没有出现类似的字符，于是我就用最笨的方法，一段一段的去排查，最终发现，我的文档中出现了<code>&#123;#</code>这个字符，只要将这个字符注释掉，就可以正常hexo g了</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>markdown</category>
+        <category>bug</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+        <tag>bug</tag>
       </tags>
   </entry>
 </search>
