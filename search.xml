@@ -7,6 +7,8 @@
 <h2 id="System-exit-0-用法与作用"><a href="#System-exit-0-用法与作用" class="headerlink" title="System.exit(0)用法与作用"></a>System.exit(0)用法与作用</h2><p>讲解链接： <a href="https://blog.csdn.net/qq_37894053/article/details/82802606">https://blog.csdn.net/qq_37894053/article/details/82802606</a></p>
 <h3 id="compareTo-方法"><a href="#compareTo-方法" class="headerlink" title="compareTo()方法"></a>compareTo()方法</h3><p>讲解链接: <a href="https://www.cnblogs.com/wxbblogs/p/6815927.html">https://www.cnblogs.com/wxbblogs/p/6815927.html</a></p>
 <p>​                <a href="https://www.cnblogs.com/codeggs/p/11302541.html">https://www.cnblogs.com/codeggs/p/11302541.html</a></p>
+<span id="more"></span>
+
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> 第三章;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_1</span> <span class="keyword">extends</span> <span class="title">TT</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">   <span class="comment">//*********Found**********</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      Java_1 t = <span class="keyword">new</span> Java_1(<span class="string">&quot;小龙&quot;</span>);<span class="comment">//程序的入口，因为是带参数的，所以只会执行带参构造，不会执行无参构造</span></span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Java_1</span><span class="params">(String s)</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      <span class="keyword">super</span>(s);<span class="comment">//先执行父类带参数的构造</span></span><br><span class="line">      System.out.println(<span class="string">&quot;您好吗？&quot;</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Java_1</span><span class="params">()</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      <span class="keyword">this</span>(<span class="string">&quot;我是文朋&quot;</span>);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TT</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">TT</span><span class="params">()</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      System.out.println(<span class="string">&quot;多高兴啊!&quot;</span>);</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">TT</span><span class="params">(String s)</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">   <span class="comment">//*********Found**********</span></span><br><span class="line">      <span class="keyword">this</span>();<span class="comment">//执行本类中不带参数的构造</span></span><br><span class="line">      System.out.println(<span class="string">&quot;我是&quot;</span>+s);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 
@@ -193,19 +195,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一个博客</title>
-    <url>/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>​    时隔一年，我终于再次把博客搭建起来了，上一次玩博客还是在2019年年底2020年初的时候，那个时候看到别人漂亮的博客，心里顿时痒痒的，也忍不住自己去搭建一个漂亮的博客，但是还没等我把要学习的技术学完，我就不得不放弃博客，转去考研了，现在是2021年3月13号，考研结束了，公务员相关的考试也都考的七七八八了，学校里面教的东西又恰好是搭建博客所要学习的内容，我不禁又重新燃起了写博客的欲望，在我的舍友余乐韬的帮助下，我花了将近5个小时，终于将这个博客搭建成功了.虽然我以前已经搭建过一次，但是无奈时间过得太久了，许多当时遇到的坑，我现在也会遇到，但是我已经不记得我当时是怎么解决的了，如今不得不重新再踩一遍。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>大学生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>写hexo博客时报错Template render error (unknown path)出现的原因及解决方法</title>
     <url>/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<p>​    今天写博客的时候遇到这么个问题<img src="https://img.imgdb.cn/item/604d8be85aedab222cc866be.png" alt="1"></p>
@@ -219,6 +208,19 @@
       <tags>
         <tag>markdown</tag>
         <tag>bug</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一个博客</title>
+    <url>/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>​    时隔一年，我终于再次把博客搭建起来了，上一次玩博客还是在2019年年底2020年初的时候，那个时候看到别人漂亮的博客，心里顿时痒痒的，也忍不住自己去搭建一个漂亮的博客，但是还没等我把要学习的技术学完，我就不得不放弃博客，转去考研了，现在是2021年3月13号，考研结束了，公务员相关的考试也都考的七七八八了，学校里面教的东西又恰好是搭建博客所要学习的内容，我不禁又重新燃起了写博客的欲望，在我的舍友余乐韬的帮助下，我花了将近5个小时，终于将这个博客搭建成功了.虽然我以前已经搭建过一次，但是无奈时间过得太久了，许多当时遇到的坑，我现在也会遇到，但是我已经不记得我当时是怎么解决的了，如今不得不重新再踩一遍。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+        <tag>大学生活</tag>
       </tags>
   </entry>
 </search>
