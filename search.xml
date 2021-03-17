@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>3月16号计算机二级纠错</title>
+    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
+<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3月17号计算机二级纠错</title>
+    <url>/2021/03/17/3%E6%9C%8817%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/</url>
+    <content><![CDATA[<p>1.ActionListener是一个接口，所有继承ActionListener的类都要重写actionperformed方法，因为actionperformed是一个抽象方法，只要使用ActionListener接口就要重写，一般情况下，这是在编写GUI程序时，组件发生“有意义”的事件时会调用这个方法，比如按钮被按下，文本框内输入回车时都会触发这个事件，然后调用你编写的事件处理程序。实现过程大体如下：编写一个ActionListener类的侦听器，组件注册该侦听器，侦听器内部要编写这个actionPerformed方法。</p>
+<hr>
+<p>2.两个字符串相比较，要使用equals方法，比如s1.equals(s2)，如果使用==进行比较，比较的是地址值，结果肯定是false</p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3月15号计算机二级纠错</title>
     <url>/2021/03/15/3%E6%9C%8815%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
     <content><![CDATA[<h2 id="JOptionPane-showMessageDialog（Component-parentComponent-Object-message）"><a href="#JOptionPane-showMessageDialog（Component-parentComponent-Object-message）" class="headerlink" title="JOptionPane.showMessageDialog（Component parentComponent, Object message）"></a>JOptionPane.showMessageDialog（Component parentComponent, Object message）</h2><p>讲解连接： <a href="https://blog.csdn.net/weixin_43876121/article/details/100982551">https://blog.csdn.net/weixin_43876121/article/details/100982551</a></p>
@@ -13,19 +40,6 @@
 
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.awt.*;</span><br><span class="line"><span class="keyword">import</span> javax.swing.*;</span><br><span class="line"></span><br><span class="line"><span class="comment">//*********Found**********</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_3</span> <span class="keyword">extends</span> <span class="title">JApplet</span>//*</span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">   <span class="comment">//*********Found**********</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span>  <span class="title">init</span><span class="params">()</span><span class="comment">//*</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      Container contentPane = getContentPane();<span class="comment">//初始化一个容器，并命名该容器为contentPane，注意，getContentPane()这个方法有返回值，返回的是Container对象</span></span><br><span class="line">      JLabel label = <span class="keyword">new</span> JLabel(<span class="string">&quot;One World  One Dream&quot;</span>,SwingConstants.CENTER);<span class="comment">//实例化标签对象，SwingConstants.CENTER=JLabel.CENTER，这两种写法可以互换，都是一样的</span></span><br><span class="line">      label.setFont(<span class="keyword">new</span> Font(<span class="string">&quot;Arial&quot;</span>, Font.BOLD, DEFAULT_SIZE));</span><br><span class="line">      <span class="comment">//*********Found**********</span></span><br><span class="line">      contentPane.add(label);<span class="comment">//将label添加到容器中</span></span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> DEFAULT_SIZE = <span class="number">24</span>;</span><br><span class="line">  </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-]]></content>
-      <categories>
-        <category>计算机二级</category>
-      </categories>
-      <tags>
-        <tag>计算机二级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>3月16号计算机二级纠错</title>
-    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
-<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -208,17 +222,16 @@
       </tags>
   </entry>
   <entry>
-    <title>3月17号计算机二级纠错</title>
-    <url>/2021/03/17/3%E6%9C%8817%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/</url>
-    <content><![CDATA[<p>1.ActionListener是一个接口，所有继承ActionListener的类都要重写actionperformed方法，因为actionperformed是一个抽象方法，只要使用ActionListener接口就要重写，一般情况下，这是在编写GUI程序时，组件发生“有意义”的事件时会调用这个方法，比如按钮被按下，文本框内输入回车时都会触发这个事件，然后调用你编写的事件处理程序。实现过程大体如下：编写一个ActionListener类的侦听器，组件注册该侦听器，侦听器内部要编写这个actionPerformed方法。</p>
-<hr>
-<p>2.两个字符串相比较，要使用equals方法，比如s1.equals(s2)，如果使用==进行比较，比较的是地址值，结果肯定是false</p>
+    <title>我的第一个博客</title>
+    <url>/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>​    时隔一年，我终于再次把博客搭建起来了，上一次玩博客还是在2019年年底2020年初的时候，那个时候看到别人漂亮的博客，心里顿时痒痒的，也忍不住自己去搭建一个漂亮的博客，但是还没等我把要学习的技术学完，我就不得不放弃博客，转去考研了，现在是2021年3月13号，考研结束了，公务员相关的考试也都考的七七八八了，学校里面教的东西又恰好是搭建博客所要学习的内容，我不禁又重新燃起了写博客的欲望，在我的舍友余乐韬的帮助下，我花了将近5个小时，终于将这个博客搭建成功了.虽然我以前已经搭建过一次，但是无奈时间过得太久了，许多当时遇到的坑，我现在也会遇到，但是我已经不记得我当时是怎么解决的了，如今不得不重新再踩一遍。</p>
 ]]></content>
       <categories>
-        <category>计算机二级</category>
+        <category>日记</category>
       </categories>
       <tags>
-        <tag>计算机二级</tag>
+        <tag>日记</tag>
+        <tag>大学生活</tag>
       </tags>
   </entry>
   <entry>
@@ -235,19 +248,6 @@
       <tags>
         <tag>markdown</tag>
         <tag>bug</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一个博客</title>
-    <url>/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>​    时隔一年，我终于再次把博客搭建起来了，上一次玩博客还是在2019年年底2020年初的时候，那个时候看到别人漂亮的博客，心里顿时痒痒的，也忍不住自己去搭建一个漂亮的博客，但是还没等我把要学习的技术学完，我就不得不放弃博客，转去考研了，现在是2021年3月13号，考研结束了，公务员相关的考试也都考的七七八八了，学校里面教的东西又恰好是搭建博客所要学习的内容，我不禁又重新燃起了写博客的欲望，在我的舍友余乐韬的帮助下，我花了将近5个小时，终于将这个博客搭建成功了.虽然我以前已经搭建过一次，但是无奈时间过得太久了，许多当时遇到的坑，我现在也会遇到，但是我已经不记得我当时是怎么解决的了，如今不得不重新再踩一遍。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>大学生活</tag>
       </tags>
   </entry>
 </search>
