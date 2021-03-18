@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-17T12:13:21.432Z</updated>
+  <updated>2021-03-18T10:18:12.234Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3月18号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/18/3%E6%9C%8818%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/18/3%E6%9C%8818%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-18T02:00:46.611Z</published>
+    <updated>2021-03-18T10:18:12.234Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1：JTextArea,JOptionPane都是属于swing包中的类，所以需要导入swing包（import</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>3月17号计算机二级纠错</title>
