@@ -35,26 +35,6 @@
       </tags>
   </entry>
   <entry>
-    <title>3月18号计算机二级纠错</title>
-    <url>/2021/03/18/3%E6%9C%8818%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>1：JTextArea,JOptionPane都是属于swing包中的类，所以需要导入swing包（import javax.swing.*)</p>
-<p>2：System.exit(0);程序正常退出</p>
-<p>3:程序是通过鼠标点击产生事件的，这个属于监听事件，要通过ActionListener接口来监听</p>
-<p>4:JFrame,JMenu等等都属于swing窗口的构建,所以到在开头导包import javax.swing.*;    </p>
-<p>5.addActionListener(this)，this可用 new 本类() 替换 前提是 本类中要继承ActionListener接口并实现方法actionPerformed()</p>
-<p>6.继承Applet父类需要导包import java.applet.*;</p>
-<p>7.在指定位置并且用指定的Brush和Font对象绘制指定的文本字符串。绘制字符串用drawString（）；    </p>
-<p>8.String curDir = System.getProperty(“user.dir”);//获取当前路径，并用字符串作为接受</p>
-<p>9.String[] files=ff.list();//list()方法是返回某个目录下的所有文件和目录的文件名，返回的是String数组</p>
-]]></content>
-      <categories>
-        <category>计算机二级</category>
-      </categories>
-      <tags>
-        <tag>计算机二级</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>3月17号计算机二级纠错</title>
     <url>/2021/03/17/3%E6%9C%8817%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/</url>
     <content><![CDATA[<p>1.ActionListener是一个接口，所有继承ActionListener的类都要重写actionperformed方法，因为actionperformed是一个抽象方法，只要使用ActionListener接口就要重写，一般情况下，这是在编写GUI程序时，组件发生“有意义”的事件时会调用这个方法，比如按钮被按下，文本框内输入回车时都会触发这个事件，然后调用你编写的事件处理程序。实现过程大体如下：编写一个ActionListener类的侦听器，组件注册该侦听器，侦听器内部要编写这个actionPerformed方法。</p>
@@ -69,13 +49,17 @@
       </tags>
   </entry>
   <entry>
-    <title>3月19号计算机二级纠错</title>
-    <url>/2021/03/19/3%E6%9C%8819%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>1.b ^ c这是异或运算，运算规则是把b和c转换成2进制，按着最低位对齐，从上往下，相同就是0，不同就是1。</p>
-<p>2.重写run（）方法要实现Runnable接口、</p>
-<p>3.将字符串中的每个字符全部找出来，java中String类提供了charAt()方法遍历每个字符</p>
-<p>4.setLayout是java图形界面编程的常用方法，用来设置用户界面上屏幕组件的格式和布局，默认为流式布局  setLayout(new  BorderLayout());</p>
-<p>5.JLabel对象可以显示文本，图像或者同时显示二者，创建对象时，在构造函数中输入要显示的对象</p>
+    <title>3月18号计算机二级纠错</title>
+    <url>/2021/03/18/3%E6%9C%8818%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1：JTextArea,JOptionPane都是属于swing包中的类，所以需要导入swing包（import javax.swing.*)</p>
+<p>2：System.exit(0);程序正常退出</p>
+<p>3:程序是通过鼠标点击产生事件的，这个属于监听事件，要通过ActionListener接口来监听</p>
+<p>4:JFrame,JMenu等等都属于swing窗口的构建,所以到在开头导包import javax.swing.*;    </p>
+<p>5.addActionListener(this)，this可用 new 本类() 替换 前提是 本类中要继承ActionListener接口并实现方法actionPerformed()</p>
+<p>6.继承Applet父类需要导包import java.applet.*;</p>
+<p>7.在指定位置并且用指定的Brush和Font对象绘制指定的文本字符串。绘制字符串用drawString（）；    </p>
+<p>8.String curDir = System.getProperty(“user.dir”);//获取当前路径，并用字符串作为接受</p>
+<p>9.String[] files=ff.list();//list()方法是返回某个目录下的所有文件和目录的文件名，返回的是String数组</p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -255,6 +239,22 @@
       </categories>
       <tags>
         <tag>markdown语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3月19号计算机二级纠错</title>
+    <url>/2021/03/19/3%E6%9C%8819%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1.b ^ c这是异或运算，运算规则是把b和c转换成2进制，按着最低位对齐，从上往下，相同就是0，不同就是1。</p>
+<p>2.重写run（）方法要实现Runnable接口、</p>
+<p>3.将字符串中的每个字符全部找出来，java中String类提供了charAt()方法遍历每个字符</p>
+<p>4.setLayout是java图形界面编程的常用方法，用来设置用户界面上屏幕组件的格式和布局，默认为流式布局  setLayout(new  BorderLayout());</p>
+<p>5.JLabel对象可以显示文本，图像或者同时显示二者，创建对象时，在构造函数中输入要显示的对象</p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
       </tags>
   </entry>
   <entry>
