@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>3月16号计算机二级纠错</title>
+    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
+<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3月15号计算机二级纠错</title>
     <url>/2021/03/15/3%E6%9C%8815%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
     <content><![CDATA[<h2 id="JOptionPane-showMessageDialog（Component-parentComponent-Object-message）"><a href="#JOptionPane-showMessageDialog（Component-parentComponent-Object-message）" class="headerlink" title="JOptionPane.showMessageDialog（Component parentComponent, Object message）"></a>JOptionPane.showMessageDialog（Component parentComponent, Object message）</h2><p>讲解连接： <a href="https://blog.csdn.net/weixin_43876121/article/details/100982551">https://blog.csdn.net/weixin_43876121/article/details/100982551</a></p>
@@ -13,19 +26,6 @@
 
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.awt.*;</span><br><span class="line"><span class="keyword">import</span> javax.swing.*;</span><br><span class="line"></span><br><span class="line"><span class="comment">//*********Found**********</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_3</span> <span class="keyword">extends</span> <span class="title">JApplet</span>//*</span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">   <span class="comment">//*********Found**********</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span>  <span class="title">init</span><span class="params">()</span><span class="comment">//*</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line">      Container contentPane = getContentPane();<span class="comment">//初始化一个容器，并命名该容器为contentPane，注意，getContentPane()这个方法有返回值，返回的是Container对象</span></span><br><span class="line">      JLabel label = <span class="keyword">new</span> JLabel(<span class="string">&quot;One World  One Dream&quot;</span>,SwingConstants.CENTER);<span class="comment">//实例化标签对象，SwingConstants.CENTER=JLabel.CENTER，这两种写法可以互换，都是一样的</span></span><br><span class="line">      label.setFont(<span class="keyword">new</span> Font(<span class="string">&quot;Arial&quot;</span>, Font.BOLD, DEFAULT_SIZE));</span><br><span class="line">      <span class="comment">//*********Found**********</span></span><br><span class="line">      contentPane.add(label);<span class="comment">//将label添加到容器中</span></span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> DEFAULT_SIZE = <span class="number">24</span>;</span><br><span class="line">  </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-]]></content>
-      <categories>
-        <category>计算机二级</category>
-      </categories>
-      <tags>
-        <tag>计算机二级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>3月16号计算机二级纠错</title>
-    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
-<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -326,9 +326,12 @@
 </li>
 <li><p>有什么用？</p>
 <ul>
-<li>读取客户端发送的数据</li>
-<li>处理数据并生成结果</li>
-<li>发送处理结果给浏览器</li>
+<li><p>读取客户端发送的数据</p>
+</li>
+<li><p>处理数据并生成结果</p>
+</li>
+<li><p>发送处理结果给浏览器</p>
+<span id="more"></span></li>
 </ul>
 </li>
 <li><p>开发环境</p>
