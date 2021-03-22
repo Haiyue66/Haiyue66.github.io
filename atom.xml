@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-22T07:30:27.051Z</updated>
+  <updated>2021-03-22T11:13:50.136Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>javaweb</title>
+    <link href="http://example.com/2021/03/22/javaweb/"/>
+    <id>http://example.com/2021/03/22/javaweb/</id>
+    <published>2021-03-22T11:12:05.268Z</published>
+    <updated>2021-03-22T11:13:50.136Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第一章-servlet&quot;&gt;&lt;a href=&quot;#第一章-servlet&quot; class=&quot;headerlink&quot; title=&quot;第一章 servlet&quot;&gt;&lt;/a&gt;第一章 servlet&lt;/h1&gt;&lt;h2 id=&quot;1-概念&quot;&gt;&lt;a href=&quot;#1-概念&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="-计算机 -JSP" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA-JSP/"/>
+    
+    
+    <category term="JSP" scheme="http://example.com/tags/JSP/"/>
+    
+  </entry>
   
   <entry>
     <title>3月19号计算机二级纠错</title>
