@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-23T09:04:05.443Z</updated>
+  <updated>2021-03-23T11:07:58.423Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>About Me</title>
+    <link href="http://example.com/2021/03/23/about/"/>
+    <id>http://example.com/2021/03/23/about/</id>
+    <published>2021-03-23T10:56:04.000Z</published>
+    <updated>2021-03-23T11:07:58.423Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;A Student, live in Nanjing, China.&lt;/p&gt;
+&lt;p&gt;姓名：吴海岳 &lt;/p&gt;
+&lt;p&gt;现居：南京 &lt;/p&gt;
+&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/Haiyue66&quot;&gt;Shen-Yu&lt;/a&gt; </summary>
+        
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="http://example.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>3月23号计算机二级纠错</title>
