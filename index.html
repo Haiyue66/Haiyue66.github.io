@@ -185,24 +185,11 @@
   <p>1.</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.applet.*;</span><br><span class="line"><span class="keyword">import</span> java.awt.Graphics;</span><br><span class="line"></span><br><span class="line"><span class="comment">//*********Found********</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_1</span> <span class="keyword">extends</span> <span class="title">Applet</span> </span>&#123;  </span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">paint</span><span class="params">( Graphics g )</span></span></span><br><span class="line"><span class="function">   </span>&#123;</span><br><span class="line"><span class="comment">//*********Found********</span></span><br><span class="line">      g.drawString( <span class="string">&quot;欢迎你来参加Java 语言考试!&quot;</span>, <span class="number">25</span>, <span class="number">25</span> );</span><br><span class="line">       <span class="comment">//drawString()是将需要显示的内容在窗口给定坐标显示出来</span></span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
 
-<p>2.继承类有JFrame,JPanel,Applet,实在不行的话，每个都试一遍吧</p>
-<p>3.将数字转换成字符串，使用String.valueOf()方法</p>
-<p>4.DecimalFormat precisionTwo = new DecimalFormat( “0.00” ); 作用是格式化十进制数字，只保留一位整数和两位小数，同时提供了format（）方法将数据进行格式化，比如precisionTwo.format( amount ) + “\n” );</p>
-<ol start="5">
-<li>public void actionPerformed(ActionEvent evt){<pre><code> label.setFont(new Font(&quot;黑体&quot;, Font.PLAIN, size));
-</code></pre>
-   }//这个直接背下来 ActionListener接口在实现时重写actionPerformed（）方法时需要传入监听器类</li>
-</ol>
-<p>6.frame.setVisible(true);设置窗体可见，一般用于main函数中</p>
-<p>7.</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.awt.*;</span><br><span class="line"><span class="keyword">import</span> javax.swing.*;</span><br><span class="line"></span><br><span class="line"><span class="comment">//*********Found**********</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_3</span> <span class="keyword">extends</span> <span class="title">JApplet</span></span>&#123;<span class="comment">//继承JApplet类不用main方法就可以运行程序</span></span><br><span class="line"><span class="comment">//*********Found**********</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">init</span><span class="params">()</span></span>&#123;<span class="comment">//初始化</span></span><br><span class="line">    Container contentPane = getContentPane();</span><br><span class="line">    JLabel label = <span class="keyword">new</span> JLabel(<span class="string">&quot;Java的诞生是对传统计算模式的挑战！&quot;</span>,</span><br><span class="line">         SwingConstants.CENTER);</span><br><span class="line"><span class="comment">//*********Found**********</span></span><br><span class="line">    contentPane.add(label);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ol start="8">
-<li>frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE );//直接背下来</li>
-</ol>
-<p>9.System.exit( 0 );//直接背</p>
-<p>10.看到没有main方法，就要想到继承JApplet</p>
- 
+<p>2.继承类有JFrame,JPanel,Applet,实在不行的话，每个都试一遍吧</p> 
+      <a class="article-more-link" href="/2021/03/23/3%E6%9C%8823%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"
+        >阅读更多...</a
+      >
+       
       <!-- reward -->
       
     </div>
