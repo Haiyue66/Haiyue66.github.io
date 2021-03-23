@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-22T11:23:24.697Z</updated>
+  <updated>2021-03-23T09:02:03.073Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3月23号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/23/3%E6%9C%8823%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/23/3%E6%9C%8823%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-23T01:30:42.617Z</published>
+    <updated>2021-03-23T09:02:03.073Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>javaweb</title>
@@ -50,11 +76,11 @@
   </entry>
   
   <entry>
-    <title>3月12号计算机二级纠错</title>
+    <title>3月22号计算机二级纠错</title>
     <link href="http://example.com/2021/03/22/3%E6%9C%8822%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
     <id>http://example.com/2021/03/22/3%E6%9C%8822%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
     <published>2021-03-22T01:14:55.150Z</published>
-    <updated>2021-03-22T11:20:44.183Z</updated>
+    <updated>2021-03-23T01:31:17.770Z</updated>
     
     
     <summary type="html">&lt;p&gt;1.JFrame窗口隐藏或者消除的方法是dispose&lt;/p&gt;
