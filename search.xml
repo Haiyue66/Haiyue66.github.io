@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>3月17号计算机二级纠错</title>
-    <url>/2021/03/17/3%E6%9C%8817%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/</url>
-    <content><![CDATA[<p>1.ActionListener是一个接口，所有继承ActionListener的类都要重写actionperformed方法，因为actionperformed是一个抽象方法，只要使用ActionListener接口就要重写，一般情况下，这是在编写GUI程序时，组件发生“有意义”的事件时会调用这个方法，比如按钮被按下，文本框内输入回车时都会触发这个事件，然后调用你编写的事件处理程序。实现过程大体如下：编写一个ActionListener类的侦听器，组件注册该侦听器，侦听器内部要编写这个actionPerformed方法。</p>
-<hr>
-<p>2.两个字符串相比较，要使用equals方法，比如s1.equals(s2)，如果使用==进行比较，比较的是地址值，结果肯定是false</p>
+    <title>3月16号计算机二级纠错</title>
+    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
+<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -36,10 +35,11 @@
       </tags>
   </entry>
   <entry>
-    <title>3月16号计算机二级纠错</title>
-    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
-<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
+    <title>3月17号计算机二级纠错</title>
+    <url>/2021/03/17/3%E6%9C%8817%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/</url>
+    <content><![CDATA[<p>1.ActionListener是一个接口，所有继承ActionListener的类都要重写actionperformed方法，因为actionperformed是一个抽象方法，只要使用ActionListener接口就要重写，一般情况下，这是在编写GUI程序时，组件发生“有意义”的事件时会调用这个方法，比如按钮被按下，文本框内输入回车时都会触发这个事件，然后调用你编写的事件处理程序。实现过程大体如下：编写一个ActionListener类的侦听器，组件注册该侦听器，侦听器内部要编写这个actionPerformed方法。</p>
+<hr>
+<p>2.两个字符串相比较，要使用equals方法，比如s1.equals(s2)，如果使用==进行比较，比较的是地址值，结果肯定是false</p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -49,17 +49,17 @@
       </tags>
   </entry>
   <entry>
-    <title>3月22号计算机二级纠错</title>
-    <url>/2021/03/22/3%E6%9C%8822%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>1.JFrame窗口隐藏或者消除的方法是dispose</p>
-<p>2.用getContentPane()方法获得JFrame的内容面板，再对其加入组件，加入组件的方法是add()</p>
-<p>3.继承ActionListener接口就要重写actionPerformed（）方法</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_2</span> </span>&#123;</span><br><span class="line"><span class="comment">//矩阵代码，最好多看几遍</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> [][]a = &#123;&#123;<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;, &#123;<span class="number">4</span>, <span class="number">6</span>, <span class="number">5</span>&#125;&#125;;</span><br><span class="line">        <span class="keyword">int</span> [][]b = &#123;&#123;<span class="number">1</span>, <span class="number">5</span>, <span class="number">2</span>, <span class="number">8</span>&#125;, &#123;<span class="number">5</span>, <span class="number">9</span>, <span class="number">10</span>, -<span class="number">3</span>&#125;, &#123;<span class="number">2</span>, <span class="number">7</span>, -<span class="number">5</span>, -<span class="number">18</span>&#125;&#125;;</span><br><span class="line">        <span class="comment">//*********Found**********</span></span><br><span class="line">        <span class="keyword">int</span> [][]c = <span class="keyword">new</span> <span class="keyword">int</span>[a[<span class="number">0</span>].length][b[<span class="number">0</span>].length];<span class="comment">//设置数组c的大小，最好背下来</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span>; i++) &#123;</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; <span class="number">4</span>; j++) &#123;</span><br><span class="line">                <span class="comment">//*********Found**********</span></span><br><span class="line">                c[i][j]=<span class="number">0</span>;</span><br><span class="line">                <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">0</span>; k &lt; <span class="number">3</span>; k++) </span><br><span class="line">                    <span class="comment">//*********Found**********</span></span><br><span class="line">                    c[i][j] += a[i][k]*b[k][j];</span><br><span class="line">                System.out.print(c[i][j] + <span class="string">&quot;  &quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<p>4.看到ActionEvent监听方法，必须要实现ActionListener接口</p>
-<p>5.getContentPane()：获取内容面板，因为JFrame不能直接添加组件，需要用getContentPane()函数获取内容面板，再在内容面板上进行添加组件，所以只有JFrame能使用这个方法</p>
+    <title>3月18号计算机二级纠错</title>
+    <url>/2021/03/18/3%E6%9C%8818%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1：JTextArea,JOptionPane都是属于swing包中的类，所以需要导入swing包（import javax.swing.*)</p>
+<p>2：System.exit(0);程序正常退出</p>
+<p>3:程序是通过鼠标点击产生事件的，这个属于监听事件，要通过ActionListener接口来监听</p>
+<p>4:JFrame,JMenu等等都属于swing窗口的构建,所以到在开头导包import javax.swing.*;    </p>
+<p>5.addActionListener(this)，this可用 new 本类() 替换 前提是 本类中要继承ActionListener接口并实现方法actionPerformed()</p>
+<p>6.继承Applet父类需要导包import java.applet.*;</p>
+<p>7.在指定位置并且用指定的Brush和Font对象绘制指定的文本字符串。绘制字符串用drawString（）；    </p>
+<p>8.String curDir = System.getProperty(“user.dir”);//获取当前路径，并用字符串作为接受</p>
+<p>9.String[] files=ff.list();//list()方法是返回某个目录下的所有文件和目录的文件名，返回的是String数组</p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -94,17 +94,17 @@
       </tags>
   </entry>
   <entry>
-    <title>3月18号计算机二级纠错</title>
-    <url>/2021/03/18/3%E6%9C%8818%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>1：JTextArea,JOptionPane都是属于swing包中的类，所以需要导入swing包（import javax.swing.*)</p>
-<p>2：System.exit(0);程序正常退出</p>
-<p>3:程序是通过鼠标点击产生事件的，这个属于监听事件，要通过ActionListener接口来监听</p>
-<p>4:JFrame,JMenu等等都属于swing窗口的构建,所以到在开头导包import javax.swing.*;    </p>
-<p>5.addActionListener(this)，this可用 new 本类() 替换 前提是 本类中要继承ActionListener接口并实现方法actionPerformed()</p>
-<p>6.继承Applet父类需要导包import java.applet.*;</p>
-<p>7.在指定位置并且用指定的Brush和Font对象绘制指定的文本字符串。绘制字符串用drawString（）；    </p>
-<p>8.String curDir = System.getProperty(“user.dir”);//获取当前路径，并用字符串作为接受</p>
-<p>9.String[] files=ff.list();//list()方法是返回某个目录下的所有文件和目录的文件名，返回的是String数组</p>
+    <title>3月22号计算机二级纠错</title>
+    <url>/2021/03/22/3%E6%9C%8822%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1.JFrame窗口隐藏或者消除的方法是dispose</p>
+<p>2.用getContentPane()方法获得JFrame的内容面板，再对其加入组件，加入组件的方法是add()</p>
+<p>3.继承ActionListener接口就要重写actionPerformed（）方法</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_2</span> </span>&#123;</span><br><span class="line"><span class="comment">//矩阵代码，最好多看几遍</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> [][]a = &#123;&#123;<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;, &#123;<span class="number">4</span>, <span class="number">6</span>, <span class="number">5</span>&#125;&#125;;</span><br><span class="line">        <span class="keyword">int</span> [][]b = &#123;&#123;<span class="number">1</span>, <span class="number">5</span>, <span class="number">2</span>, <span class="number">8</span>&#125;, &#123;<span class="number">5</span>, <span class="number">9</span>, <span class="number">10</span>, -<span class="number">3</span>&#125;, &#123;<span class="number">2</span>, <span class="number">7</span>, -<span class="number">5</span>, -<span class="number">18</span>&#125;&#125;;</span><br><span class="line">        <span class="comment">//*********Found**********</span></span><br><span class="line">        <span class="keyword">int</span> [][]c = <span class="keyword">new</span> <span class="keyword">int</span>[a[<span class="number">0</span>].length][b[<span class="number">0</span>].length];<span class="comment">//设置数组c的大小，最好背下来</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span>; i++) &#123;</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; <span class="number">4</span>; j++) &#123;</span><br><span class="line">                <span class="comment">//*********Found**********</span></span><br><span class="line">                c[i][j]=<span class="number">0</span>;</span><br><span class="line">                <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">0</span>; k &lt; <span class="number">3</span>; k++) </span><br><span class="line">                    <span class="comment">//*********Found**********</span></span><br><span class="line">                    c[i][j] += a[i][k]*b[k][j];</span><br><span class="line">                System.out.print(c[i][j] + <span class="string">&quot;  &quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>4.看到ActionEvent监听方法，必须要实现ActionListener接口</p>
+<p>5.getContentPane()：获取内容面板，因为JFrame不能直接添加组件，需要用getContentPane()函数获取内容面板，再在内容面板上进行添加组件，所以只有JFrame能使用这个方法</p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -147,18 +147,20 @@
       </tags>
   </entry>
   <entry>
-    <title>About Me</title>
-    <url>/2021/03/23/about/</url>
-    <content><![CDATA[<p>A Student, live in Nanjing, China.</p>
-<p>姓名：吴海岳 </p>
-<p>现居：南京 </p>
-<p>GitHub: <a href="https://github.com/Haiyue66">Haiyue66</a>  </p>
-<p>QQ: 1623870390 </p>
-<p>微信: haiyue_vip</p>
-<p><img src="https://img.imgdb.cn/item/6059c8df8322e6675c4c9e97.jpg"></p>
+    <title>3月23号计算机二级纠错</title>
+    <url>/2021/03/24/3%E6%9C%8824%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1.只要看到JOptionPane,就要写import javax.swing.*  ps:全是小写。</p>
+<p>2Container c = getContentPane();</p>
+<p>3.int n = Math.round(21*x);  //构造20以内的一个整数</p>
+<p>4.JTextArea outputArea;      outputArea.setText( output );//输出数据，直接背</p>
+<p>5.public void paint(Graphics g) {} 重写paint函数实现绘图，直接背</p>
+<p>6.t.join(); //等待线程t运行结束,由于线程具有不确定性，让一个线程持续执行完成，需要调用join()函数保证该线程执行完毕再跳到下一个线程</p>
 ]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
       <tags>
-        <tag>随笔</tag>
+        <tag>计算机二级</tag>
       </tags>
   </entry>
   <entry>
@@ -335,19 +337,18 @@
       </tags>
   </entry>
   <entry>
-    <title>写hexo博客时报错Template render error (unknown path)出现的原因及解决方法</title>
-    <url>/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p>​    今天写博客的时候遇到这么个问题<img src="https://img.imgdb.cn/item/604d8be85aedab222cc866be.png" alt="1"></p>
-<p>​    我去网上查了下，原因是出现了类似<code>&#123;&#123;&#125;&#125;，&#123;% %&#125;</code>这样的无法转义的字符，只要将这些字符注释掉就行了，但是我检查了我的文档，并没有出现类似的字符，于是我就用最笨的方法，一段一段的去排查，最终发现，我的文档中出现了<code>&#123;#</code>这个字符，只要将这个字符注释掉，就可以正常hexo g了</p>
+    <title>About Me</title>
+    <url>/2021/03/23/about/</url>
+    <content><![CDATA[<p>A Student, live in Nanjing, China.</p>
+<p>姓名：吴海岳 </p>
+<p>现居：南京 </p>
+<p>GitHub: <a href="https://github.com/Haiyue66">Haiyue66</a>  </p>
+<p>QQ: 1623870390 </p>
+<p>微信: haiyue_vip</p>
+<p><img src="https://img.imgdb.cn/item/6059c8df8322e6675c4c9e97.jpg"></p>
 ]]></content>
-      <categories>
-        <category>学习</category>
-        <category>markdown</category>
-        <category>bug</category>
-      </categories>
       <tags>
-        <tag>markdown</tag>
-        <tag>bug</tag>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
@@ -361,6 +362,22 @@
       <tags>
         <tag>日记</tag>
         <tag>大学生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写hexo博客时报错Template render error (unknown path)出现的原因及解决方法</title>
+    <url>/2021/03/14/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>​    今天写博客的时候遇到这么个问题<img src="https://img.imgdb.cn/item/604d8be85aedab222cc866be.png" alt="1"></p>
+<p>​    我去网上查了下，原因是出现了类似<code>&#123;&#123;&#125;&#125;，&#123;% %&#125;</code>这样的无法转义的字符，只要将这些字符注释掉就行了，但是我检查了我的文档，并没有出现类似的字符，于是我就用最笨的方法，一段一段的去排查，最终发现，我的文档中出现了<code>&#123;#</code>这个字符，只要将这个字符注释掉，就可以正常hexo g了</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+        <category>markdown</category>
+        <category>bug</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+        <tag>bug</tag>
       </tags>
   </entry>
   <entry>

@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-23T11:11:39.728Z</updated>
+  <updated>2021-03-24T12:45:38.536Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3月23号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/24/3%E6%9C%8824%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/24/3%E6%9C%8824%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-24T05:27:10.202Z</published>
+    <updated>2021-03-24T12:45:38.536Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.只要看到JOptionPane,就要写import javax.swing.*  ps:全是小写。&lt;/p&gt;
+&lt;p&gt;2Container c = getContentPane();&lt;/p&gt;
+&lt;p&gt;3.int n = Math.round(21*x); </summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>About Me</title>
