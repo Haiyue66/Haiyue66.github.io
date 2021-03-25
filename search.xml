@@ -69,6 +69,26 @@
       </tags>
   </entry>
   <entry>
+    <title>3月22号计算机二级纠错</title>
+    <url>/2021/03/22/3%E6%9C%8822%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1.JFrame窗口隐藏或者消除的方法是dispose</p>
+<p>2.用getContentPane()方法获得JFrame的内容面板，再对其加入组件，加入组件的方法是add()</p>
+<p>3.继承ActionListener接口就要重写actionPerformed（）方法</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_2</span> </span>&#123;</span><br><span class="line"><span class="comment">//矩阵代码，最好多看几遍</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> [][]a = &#123;&#123;<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;, &#123;<span class="number">4</span>, <span class="number">6</span>, <span class="number">5</span>&#125;&#125;;</span><br><span class="line">        <span class="keyword">int</span> [][]b = &#123;&#123;<span class="number">1</span>, <span class="number">5</span>, <span class="number">2</span>, <span class="number">8</span>&#125;, &#123;<span class="number">5</span>, <span class="number">9</span>, <span class="number">10</span>, -<span class="number">3</span>&#125;, &#123;<span class="number">2</span>, <span class="number">7</span>, -<span class="number">5</span>, -<span class="number">18</span>&#125;&#125;;</span><br><span class="line">        <span class="comment">//*********Found**********</span></span><br><span class="line">        <span class="keyword">int</span> [][]c = <span class="keyword">new</span> <span class="keyword">int</span>[a[<span class="number">0</span>].length][b[<span class="number">0</span>].length];<span class="comment">//设置数组c的大小，最好背下来</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span>; i++) &#123;</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; <span class="number">4</span>; j++) &#123;</span><br><span class="line">                <span class="comment">//*********Found**********</span></span><br><span class="line">                c[i][j]=<span class="number">0</span>;</span><br><span class="line">                <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">0</span>; k &lt; <span class="number">3</span>; k++) </span><br><span class="line">                    <span class="comment">//*********Found**********</span></span><br><span class="line">                    c[i][j] += a[i][k]*b[k][j];</span><br><span class="line">                System.out.print(c[i][j] + <span class="string">&quot;  &quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>4.看到ActionEvent监听方法，必须要实现ActionListener接口</p>
+<p>5.getContentPane()：获取内容面板，因为JFrame不能直接添加组件，需要用getContentPane()函数获取内容面板，再在内容面板上进行添加组件，所以只有JFrame能使用这个方法</p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3月19号计算机二级纠错</title>
     <url>/2021/03/19/3%E6%9C%8819%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
     <content><![CDATA[<p>1.b ^ c这是异或运算，运算规则是把b和c转换成2进制，按着最低位对齐，从上往下，相同就是0，不同就是1。</p>
@@ -85,26 +105,6 @@
 
 
 
-]]></content>
-      <categories>
-        <category>计算机二级</category>
-      </categories>
-      <tags>
-        <tag>计算机二级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>3月22号计算机二级纠错</title>
-    <url>/2021/03/22/3%E6%9C%8822%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>1.JFrame窗口隐藏或者消除的方法是dispose</p>
-<p>2.用getContentPane()方法获得JFrame的内容面板，再对其加入组件，加入组件的方法是add()</p>
-<p>3.继承ActionListener接口就要重写actionPerformed（）方法</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_2</span> </span>&#123;</span><br><span class="line"><span class="comment">//矩阵代码，最好多看几遍</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> [][]a = &#123;&#123;<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;, &#123;<span class="number">4</span>, <span class="number">6</span>, <span class="number">5</span>&#125;&#125;;</span><br><span class="line">        <span class="keyword">int</span> [][]b = &#123;&#123;<span class="number">1</span>, <span class="number">5</span>, <span class="number">2</span>, <span class="number">8</span>&#125;, &#123;<span class="number">5</span>, <span class="number">9</span>, <span class="number">10</span>, -<span class="number">3</span>&#125;, &#123;<span class="number">2</span>, <span class="number">7</span>, -<span class="number">5</span>, -<span class="number">18</span>&#125;&#125;;</span><br><span class="line">        <span class="comment">//*********Found**********</span></span><br><span class="line">        <span class="keyword">int</span> [][]c = <span class="keyword">new</span> <span class="keyword">int</span>[a[<span class="number">0</span>].length][b[<span class="number">0</span>].length];<span class="comment">//设置数组c的大小，最好背下来</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span>; i++) &#123;</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; <span class="number">4</span>; j++) &#123;</span><br><span class="line">                <span class="comment">//*********Found**********</span></span><br><span class="line">                c[i][j]=<span class="number">0</span>;</span><br><span class="line">                <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">0</span>; k &lt; <span class="number">3</span>; k++) </span><br><span class="line">                    <span class="comment">//*********Found**********</span></span><br><span class="line">                    c[i][j] += a[i][k]*b[k][j];</span><br><span class="line">                System.out.print(c[i][j] + <span class="string">&quot;  &quot;</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.println();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<p>4.看到ActionEvent监听方法，必须要实现ActionListener接口</p>
-<p>5.getContentPane()：获取内容面板，因为JFrame不能直接添加组件，需要用getContentPane()函数获取内容面板，再在内容面板上进行添加组件，所以只有JFrame能使用这个方法</p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -349,6 +349,25 @@
 ]]></content>
       <tags>
         <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3月25号计算机二级纠错</title>
+    <url>/2021/03/25/3%E6%9C%8825%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1.FileWriter和FileReader类实现文件流的输入和输出</p>
+<p>2.bu1.addActionListener(new ActionListener() {</p>
+<p>​    public void actionPerformed(ActionEvent e) {}}//直接背吧</p>
+<p>3.定义抽象方法时abstract，不是static。</p>
+<p>4.素数：曾称<em>质数</em>。一个大于1的正整数，如果除了1和它本身以外，不能被其他正整数整除，就叫<em>素数</em>。</p>
+<p>5.Math.round((float)Math.sqrt(m));//round（）方法是四舍五入，sqrt（）方法是开平方。</p>
+<p>6.out.writeChar(aa[i]);//通过字符串的方式输出数组。</p>
+<p>7.JOptionPane.showMessageDialog( null, output,<br>         “字符串缓存长度和容量的实例”,JOptionPane.INFORMATION_MESSAGE );//直接背吧</p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
       </tags>
   </entry>
   <entry>
