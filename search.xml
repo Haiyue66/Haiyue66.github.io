@@ -22,19 +22,6 @@
       </tags>
   </entry>
   <entry>
-    <title>3月16号计算机二级纠错</title>
-    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
-<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
-]]></content>
-      <categories>
-        <category>计算机二级</category>
-      </categories>
-      <tags>
-        <tag>计算机二级</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>3月17号计算机二级纠错</title>
     <url>/2021/03/17/3%E6%9C%8817%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/</url>
     <content><![CDATA[<p>1.ActionListener是一个接口，所有继承ActionListener的类都要重写actionperformed方法，因为actionperformed是一个抽象方法，只要使用ActionListener接口就要重写，一般情况下，这是在编写GUI程序时，组件发生“有意义”的事件时会调用这个方法，比如按钮被按下，文本框内输入回车时都会触发这个事件，然后调用你编写的事件处理程序。实现过程大体如下：编写一个ActionListener类的侦听器，组件注册该侦听器，侦听器内部要编写这个actionPerformed方法。</p>
@@ -60,6 +47,19 @@
 <p>7.在指定位置并且用指定的Brush和Font对象绘制指定的文本字符串。绘制字符串用drawString（）；    </p>
 <p>8.String curDir = System.getProperty(“user.dir”);//获取当前路径，并用字符串作为接受</p>
 <p>9.String[] files=ff.list();//list()方法是返回某个目录下的所有文件和目录的文件名，返回的是String数组</p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3月16号计算机二级纠错</title>
+    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
+<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -155,6 +155,71 @@
 <p>4.JTextArea outputArea;      outputArea.setText( output );//输出数据，直接背</p>
 <p>5.public void paint(Graphics g) {} 重写paint函数实现绘图，直接背</p>
 <p>6.t.join(); //等待线程t运行结束,由于线程具有不确定性，让一个线程持续执行完成，需要调用join()函数保证该线程执行完毕再跳到下一个线程</p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3月26号计算机二级纠错</title>
+    <url>/2021/03/26/3%E6%9C%8826%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1.对象的输出流将制定的对象写入到文件的过程，就是将对象序列化的过程对象的输入流将指定序列化好的文件读出来的过程，就是对象反序列化的过程，此时对象所对应的class必须要实现Serializable接口，一般io流涉及到的接口只有Serializable,对象输出的时候还要重写toString方法</p>
+<p>2.cc=new JColorChooser();<br>    myColor=cc.showDialog(c,”Choose window background color” ,Color.white);</p>
+<p>注意，showDialog（）方法的第二个参数反映的是框体左上角的标题</p>
+<p>3.fc=new JFileChooser();<br>    int selected=fc.showOpenDialog(c); //记住JFileChooser（）方法中的showOpenDialog（）方法，c是container</p>
+<p>4.子类继承父类，记得要用super（）方法</p>
+<p>5.</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="class"><span class="keyword">class</span> <span class="title">MouseMotion</span> <span class="keyword">extends</span> <span class="title">MouseAdapter</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">mouseMoved</span><span class="params">(MouseEvent e)</span> </span>&#123;</span><br><span class="line">           <span class="comment">//*********Found**********</span></span><br><span class="line">           b.setText(<span class="string">&quot; 鼠标当前位置: &quot;</span>+ e.getX()+ <span class="string">&quot; , &quot;</span> + e.getY());</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+<p>解析：这是鼠标的监听事件，直接背下来吧</p>
+<p>6.import java.awt.event.*;//看到ActionListener接口的时候要导入这个包，直接背</p>
+<p>7.if ((i+j)==4) //记住，这里要加括号</p>
+<p>8.table.addMouseListener(new MouseAdapter() {<br>            public void mouseClicked(MouseEvent e) {}}</p>
+<p>9.setEditable(false)//使调用这个函数的控件不能被编辑</p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>About Me</title>
+    <url>/2021/03/23/about/</url>
+    <content><![CDATA[<p>A Student, live in Nanjing, China.</p>
+<p>姓名：吴海岳 </p>
+<p>现居：南京 </p>
+<p>GitHub: <a href="https://github.com/Haiyue66">Haiyue66</a>  </p>
+<p>QQ: 1623870390 </p>
+<p>微信: haiyue_vip</p>
+<p><img src="https://img.imgdb.cn/item/6059c8df8322e6675c4c9e97.jpg"></p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3月25号计算机二级纠错</title>
+    <url>/2021/03/25/3%E6%9C%8825%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1.FileWriter和FileReader类实现文件流的输入和输出</p>
+<p>2.bu1.addActionListener(new ActionListener() {</p>
+<p>​    public void actionPerformed(ActionEvent e) {}}//直接背吧</p>
+<p>3.定义抽象方法时abstract，不是static。</p>
+<p>4.素数：曾称<em>质数</em>。一个大于1的正整数，如果除了1和它本身以外，不能被其他正整数整除，就叫<em>素数</em>。</p>
+<p>5.Math.round((float)Math.sqrt(m));//round（）方法是四舍五入，sqrt（）方法是开平方。</p>
+<p>6.out.writeChar(aa[i]);//通过字符串的方式输出数组。</p>
+<p>7.JOptionPane.showMessageDialog( null, output,<br>         “字符串缓存长度和容量的实例”,JOptionPane.INFORMATION_MESSAGE );//直接背吧</p>
+<p>8.io流，最后一定要记得关闭</p>
+<p>9.String xVal;<br>      xVal = JOptionPane.showInputDialog(<br>                “输入1个整数:” );//在JOptionPane显示文字</p>
+<p>10.getChars() 方法：public void getChars(int srcBegin, int srcEnd, char[] dst,  int dstBegin)</p>
+<p>参数：<strong>srcBegin</strong> – 字符串中要复制的第一个字符的索引。<strong>srcEnd</strong> – 字符串中要复制的最后一个字符之后的索引。<strong>dst</strong> – 目标数组。<strong>dstBegin</strong> – 目标数组中的起始偏移量。</p>
+<p>11</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_1</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//*********Found**********</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;<span class="number">6</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">1</span>;k&lt;=<span class="number">5</span>-i;k++)</span><br><span class="line">                <span class="comment">//*********Found**********</span></span><br><span class="line">                System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">2</span>*i-<span class="number">1</span>;j++)</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            System.out.print(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">解析：一共有三个循环结构，第一个循环输出行，第二个循环输出空格，第三个循环输出*</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -334,40 +399,6 @@
       </categories>
       <tags>
         <tag>markdown语法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>About Me</title>
-    <url>/2021/03/23/about/</url>
-    <content><![CDATA[<p>A Student, live in Nanjing, China.</p>
-<p>姓名：吴海岳 </p>
-<p>现居：南京 </p>
-<p>GitHub: <a href="https://github.com/Haiyue66">Haiyue66</a>  </p>
-<p>QQ: 1623870390 </p>
-<p>微信: haiyue_vip</p>
-<p><img src="https://img.imgdb.cn/item/6059c8df8322e6675c4c9e97.jpg"></p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>3月25号计算机二级纠错</title>
-    <url>/2021/03/25/3%E6%9C%8825%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>1.FileWriter和FileReader类实现文件流的输入和输出</p>
-<p>2.bu1.addActionListener(new ActionListener() {</p>
-<p>​    public void actionPerformed(ActionEvent e) {}}//直接背吧</p>
-<p>3.定义抽象方法时abstract，不是static。</p>
-<p>4.素数：曾称<em>质数</em>。一个大于1的正整数，如果除了1和它本身以外，不能被其他正整数整除，就叫<em>素数</em>。</p>
-<p>5.Math.round((float)Math.sqrt(m));//round（）方法是四舍五入，sqrt（）方法是开平方。</p>
-<p>6.out.writeChar(aa[i]);//通过字符串的方式输出数组。</p>
-<p>7.JOptionPane.showMessageDialog( null, output,<br>         “字符串缓存长度和容量的实例”,JOptionPane.INFORMATION_MESSAGE );//直接背吧</p>
-]]></content>
-      <categories>
-        <category>计算机二级</category>
-      </categories>
-      <tags>
-        <tag>计算机二级</tag>
       </tags>
   </entry>
   <entry>

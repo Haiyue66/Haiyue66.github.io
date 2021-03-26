@@ -86,7 +86,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">145</span>
+            <span class="post-count">344</span>
         </span>
     </span>
 
@@ -116,6 +116,13 @@
 <p>5.Math.round((float)Math.sqrt(m));//round（）方法是四舍五入，sqrt（）方法是开平方。</p>
 <p>6.out.writeChar(aa[i]);//通过字符串的方式输出数组。</p>
 <p>7.JOptionPane.showMessageDialog( null, output,<br>         “字符串缓存长度和容量的实例”,JOptionPane.INFORMATION_MESSAGE );//直接背吧</p>
+<p>8.io流，最后一定要记得关闭</p>
+<p>9.String xVal;<br>      xVal = JOptionPane.showInputDialog(<br>                “输入1个整数:” );//在JOptionPane显示文字</p>
+<p>10.getChars() 方法：public void getChars(int srcBegin, int srcEnd, char[] dst,  int dstBegin)</p>
+<p>参数：<strong>srcBegin</strong> – 字符串中要复制的第一个字符的索引。<strong>srcEnd</strong> – 字符串中要复制的最后一个字符之后的索引。<strong>dst</strong> – 目标数组。<strong>dstBegin</strong> – 目标数组中的起始偏移量。</p>
+<p>11</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_1</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//*********Found**********</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;<span class="number">6</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">1</span>;k&lt;=<span class="number">5</span>-i;k++)</span><br><span class="line">                <span class="comment">//*********Found**********</span></span><br><span class="line">                System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">2</span>*i-<span class="number">1</span>;j++)</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            System.out.print(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">解析：一共有三个循环结构，第一个循环输出行，第二个循环输出空格，第三个循环输出*</span><br></pre></td></tr></table></figure>
+
  
       <!-- reward -->
       
@@ -198,6 +205,15 @@
 
    
   <nav class="article-nav">
+    
+      <a href="/2021/03/26/3%E6%9C%8826%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            3月26号计算机二级纠错
+          
+        </div>
+      </a>
     
     
       <a href="/2021/03/24/3%E6%9C%8824%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/" class="article-nav-link">

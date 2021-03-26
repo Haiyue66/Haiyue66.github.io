@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-25T08:58:38.213Z</updated>
+  <updated>2021-03-26T08:02:07.646Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>3月26号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/26/3%E6%9C%8826%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/26/3%E6%9C%8826%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-26T01:17:49.250Z</published>
+    <updated>2021-03-26T08:02:07.646Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.对象的输出流将制定的对象写入到文件的过程，就是将对象序列化的过程对象的输入流将指定序列化好的文件读出来的过程，就是对象反序列化的过程，此时对象所对应的class必须要实现Serializable接口，一般io流涉及到的接口只有Serializable,对象输出的时候还要</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>3月25号计算机二级纠错</title>
     <link href="http://example.com/2021/03/25/3%E6%9C%8825%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
     <id>http://example.com/2021/03/25/3%E6%9C%8825%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
     <published>2021-03-25T05:36:55.235Z</published>
-    <updated>2021-03-25T08:58:38.213Z</updated>
+    <updated>2021-03-25T12:07:07.162Z</updated>
     
     
       
