@@ -22,6 +22,19 @@
       </tags>
   </entry>
   <entry>
+    <title>3月16号计算机二级纠错</title>
+    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
+<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>3月17号计算机二级纠错</title>
     <url>/2021/03/17/3%E6%9C%8817%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/</url>
     <content><![CDATA[<p>1.ActionListener是一个接口，所有继承ActionListener的类都要重写actionperformed方法，因为actionperformed是一个抽象方法，只要使用ActionListener接口就要重写，一般情况下，这是在编写GUI程序时，组件发生“有意义”的事件时会调用这个方法，比如按钮被按下，文本框内输入回车时都会触发这个事件，然后调用你编写的事件处理程序。实现过程大体如下：编写一个ActionListener类的侦听器，组件注册该侦听器，侦听器内部要编写这个actionPerformed方法。</p>
@@ -56,10 +69,22 @@
       </tags>
   </entry>
   <entry>
-    <title>3月16号计算机二级纠错</title>
-    <url>/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>getName（）方法用来获取线程的名字</p>
-<p>Java Applet： <a href="https://www.runoob.com/java/java-applet-basics.html">https://www.runoob.com/java/java-applet-basics.html</a></p>
+    <title>3月19号计算机二级纠错</title>
+    <url>/2021/03/19/3%E6%9C%8819%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1.b ^ c这是异或运算，运算规则是把b和c转换成2进制，按着最低位对齐，从上往下，相同就是0，不同就是1。</p>
+<p>2.重写run（）方法要实现Runnable接口、</p>
+<p>3.将字符串中的每个字符全部找出来，java中String类提供了charAt()方法遍历每个字符</p>
+<p>4.setLayout是java图形界面编程的常用方法，用来设置用户界面上屏幕组件的格式和布局，默认为流式布局  setLayout(new  BorderLayout());</p>
+<p>5.JLabel对象可以显示文本，图像或者同时显示二者，创建对象时，在构造函数中输入要显示的对象</p>
+<p>6.readLine()是读取流数据的时候用的，返回值类型是字符串，当读取完所有数据时会返回null</p>
+<p>7.System.out.print(“\n”);输出换行符，注意\n的写法</p>
+<p>8.JFrame类提供设置标题的方法，setTitle()设置标题</p>
+<p>9.public void getChars(int start,int end,char c[],int offset)</p>
+<p>​     该方法的作用是将当前字符串从start到end-1位置上的字符复制到字符数组c中，并从c的offset处开始存放，这个方法时String提供的，比如：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.print(<span class="string">&quot;从字节数组的第7到12获取字符是：&quot;</span>);</span><br><span class="line">     string.getChars(<span class="number">6</span>,<span class="number">12</span>,sub,<span class="number">0</span>);</span><br><span class="line">     System.out.println(sub);</span><br></pre></td></tr></table></figure>
+
+
+
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -80,31 +105,6 @@
 
 <p>4.看到ActionEvent监听方法，必须要实现ActionListener接口</p>
 <p>5.getContentPane()：获取内容面板，因为JFrame不能直接添加组件，需要用getContentPane()函数获取内容面板，再在内容面板上进行添加组件，所以只有JFrame能使用这个方法</p>
-]]></content>
-      <categories>
-        <category>计算机二级</category>
-      </categories>
-      <tags>
-        <tag>计算机二级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>3月19号计算机二级纠错</title>
-    <url>/2021/03/19/3%E6%9C%8819%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>1.b ^ c这是异或运算，运算规则是把b和c转换成2进制，按着最低位对齐，从上往下，相同就是0，不同就是1。</p>
-<p>2.重写run（）方法要实现Runnable接口、</p>
-<p>3.将字符串中的每个字符全部找出来，java中String类提供了charAt()方法遍历每个字符</p>
-<p>4.setLayout是java图形界面编程的常用方法，用来设置用户界面上屏幕组件的格式和布局，默认为流式布局  setLayout(new  BorderLayout());</p>
-<p>5.JLabel对象可以显示文本，图像或者同时显示二者，创建对象时，在构造函数中输入要显示的对象</p>
-<p>6.readLine()是读取流数据的时候用的，返回值类型是字符串，当读取完所有数据时会返回null</p>
-<p>7.System.out.print(“\n”);输出换行符，注意\n的写法</p>
-<p>8.JFrame类提供设置标题的方法，setTitle()设置标题</p>
-<p>9.public void getChars(int start,int end,char c[],int offset)</p>
-<p>​     该方法的作用是将当前字符串从start到end-1位置上的字符复制到字符数组c中，并从c的offset处开始存放，这个方法时String提供的，比如：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.print(<span class="string">&quot;从字节数组的第7到12获取字符是：&quot;</span>);</span><br><span class="line">     string.getChars(<span class="number">6</span>,<span class="number">12</span>,sub,<span class="number">0</span>);</span><br><span class="line">     System.out.println(sub);</span><br></pre></td></tr></table></figure>
-
-
-
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -164,45 +164,6 @@
       </tags>
   </entry>
   <entry>
-    <title>3月26号计算机二级纠错</title>
-    <url>/2021/03/26/3%E6%9C%8826%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
-    <content><![CDATA[<p>1.对象的输出流将制定的对象写入到文件的过程，就是将对象序列化的过程对象的输入流将指定序列化好的文件读出来的过程，就是对象反序列化的过程，此时对象所对应的class必须要实现Serializable接口，一般io流涉及到的接口只有Serializable,对象输出的时候还要重写toString方法</p>
-<p>2.cc=new JColorChooser();<br>    myColor=cc.showDialog(c,”Choose window background color” ,Color.white);</p>
-<p>注意，showDialog（）方法的第二个参数反映的是框体左上角的标题</p>
-<p>3.fc=new JFileChooser();<br>    int selected=fc.showOpenDialog(c); //记住JFileChooser（）方法中的showOpenDialog（）方法，c是container</p>
-<p>4.子类继承父类，记得要用super（）方法</p>
-<p>5.</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="class"><span class="keyword">class</span> <span class="title">MouseMotion</span> <span class="keyword">extends</span> <span class="title">MouseAdapter</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">mouseMoved</span><span class="params">(MouseEvent e)</span> </span>&#123;</span><br><span class="line">           <span class="comment">//*********Found**********</span></span><br><span class="line">           b.setText(<span class="string">&quot; 鼠标当前位置: &quot;</span>+ e.getX()+ <span class="string">&quot; , &quot;</span> + e.getY());</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-
-<p>解析：这是鼠标的监听事件，直接背下来吧</p>
-<p>6.import java.awt.event.*;//看到ActionListener接口的时候要导入这个包，直接背</p>
-<p>7.if ((i+j)==4) //记住，这里要加括号</p>
-<p>8.table.addMouseListener(new MouseAdapter() {<br>            public void mouseClicked(MouseEvent e) {}}</p>
-<p>9.setEditable(false)//使调用这个函数的控件不能被编辑</p>
-]]></content>
-      <categories>
-        <category>计算机二级</category>
-      </categories>
-      <tags>
-        <tag>计算机二级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>About Me</title>
-    <url>/2021/03/23/about/</url>
-    <content><![CDATA[<p>A Student, live in Nanjing, China.</p>
-<p>姓名：吴海岳 </p>
-<p>现居：南京 </p>
-<p>GitHub: <a href="https://github.com/Haiyue66">Haiyue66</a>  </p>
-<p>QQ: 1623870390 </p>
-<p>微信: haiyue_vip</p>
-<p><img src="https://img.imgdb.cn/item/6059c8df8322e6675c4c9e97.jpg"></p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>3月25号计算机二级纠错</title>
     <url>/2021/03/25/3%E6%9C%8825%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
     <content><![CDATA[<p>1.FileWriter和FileReader类实现文件流的输入和输出</p>
@@ -220,6 +181,30 @@
 <p>11</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Java_1</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//*********Found**********</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;<span class="number">6</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">1</span>;k&lt;=<span class="number">5</span>-i;k++)</span><br><span class="line">                <span class="comment">//*********Found**********</span></span><br><span class="line">                System.out.print(<span class="string">&quot; &quot;</span>);</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=<span class="number">2</span>*i-<span class="number">1</span>;j++)</span><br><span class="line">                System.out.print(<span class="string">&quot;*&quot;</span>);</span><br><span class="line">            <span class="comment">//*********Found**********</span></span><br><span class="line">            System.out.print(<span class="string">&quot;\n&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">解析：一共有三个循环结构，第一个循环输出行，第二个循环输出空格，第三个循环输出*</span><br></pre></td></tr></table></figure>
 
+]]></content>
+      <categories>
+        <category>计算机二级</category>
+      </categories>
+      <tags>
+        <tag>计算机二级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>3月26号计算机二级纠错</title>
+    <url>/2021/03/26/3%E6%9C%8826%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</url>
+    <content><![CDATA[<p>1.对象的输出流将制定的对象写入到文件的过程，就是将对象序列化的过程对象的输入流将指定序列化好的文件读出来的过程，就是对象反序列化的过程，此时对象所对应的class必须要实现Serializable接口，一般io流涉及到的接口只有Serializable,对象输出的时候还要重写toString方法</p>
+<p>2.cc=new JColorChooser();<br>    myColor=cc.showDialog(c,”Choose window background color” ,Color.white);</p>
+<p>注意，showDialog（）方法的第二个参数反映的是框体左上角的标题</p>
+<p>3.fc=new JFileChooser();<br>    int selected=fc.showOpenDialog(c); //记住JFileChooser（）方法中的showOpenDialog（）方法，c是container</p>
+<p>4.子类继承父类，记得要用super（）方法</p>
+<p>5.</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="class"><span class="keyword">class</span> <span class="title">MouseMotion</span> <span class="keyword">extends</span> <span class="title">MouseAdapter</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">mouseMoved</span><span class="params">(MouseEvent e)</span> </span>&#123;</span><br><span class="line">           <span class="comment">//*********Found**********</span></span><br><span class="line">           b.setText(<span class="string">&quot; 鼠标当前位置: &quot;</span>+ e.getX()+ <span class="string">&quot; , &quot;</span> + e.getY());</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+<p>解析：这是鼠标的监听事件，直接背下来吧</p>
+<p>6.import java.awt.event.*;//看到ActionListener接口的时候要导入这个包，直接背</p>
+<p>7.if ((i+j)==4) //记住，这里要加括号</p>
+<p>8.table.addMouseListener(new MouseAdapter() {<br>            public void mouseClicked(MouseEvent e) {}}</p>
+<p>9.setEditable(false)//使调用这个函数的控件不能被编辑</p>
 ]]></content>
       <categories>
         <category>计算机二级</category>
@@ -399,6 +384,21 @@
       </categories>
       <tags>
         <tag>markdown语法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>About Me</title>
+    <url>/2021/03/23/about/</url>
+    <content><![CDATA[<p>A Student, live in Nanjing, China.</p>
+<p>姓名：吴海岳 </p>
+<p>现居：南京 </p>
+<p>GitHub: <a href="https://github.com/Haiyue66">Haiyue66</a>  </p>
+<p>QQ: 1623870390 </p>
+<p>微信: haiyue_vip</p>
+<p><img src="https://img.imgdb.cn/item/6059c8df8322e6675c4c9e97.jpg"></p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
