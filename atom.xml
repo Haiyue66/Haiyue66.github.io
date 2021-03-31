@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-29T01:36:17.969Z</updated>
+  <updated>2021-03-31T06:01:39.327Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,45 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaWeb</title>
+    <link href="http://example.com/2021/03/31/JavaWeb/"/>
+    <id>http://example.com/2021/03/31/JavaWeb/</id>
+    <published>2021-03-31T02:56:54.438Z</published>
+    <updated>2021-03-31T06:01:39.327Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;JavaWeb&quot;&gt;&lt;a href=&quot;#JavaWeb&quot; class=&quot;headerlink&quot; title=&quot;JavaWeb&quot;&gt;&lt;/a&gt;JavaWeb&lt;/h1&gt;&lt;p&gt;Java    Web&lt;/p&gt;
+&lt;h2 id=&quot;1、基本概念&quot;&gt;&lt;a href=&quot;#1、基本概念&quot; class=&quot;headerlink&quot; title=&quot;1、基本概念&quot;&gt;&lt;/a&gt;1、基本概念&lt;/h2&gt;&lt;h3 id=&quot;1-1、前言&quot;&gt;&lt;a href=&quot;#1-1、前言&quot; class=&quot;headerlink&quot; title=&quot;1.1、前言&quot;&gt;&lt;/a&gt;1.1、前言&lt;/h3&gt;&lt;p&gt;web开发：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;web，网页的意思  ， &lt;a href=&quot;http://www.baidu.com/&quot;&gt;www.baidu.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;静态web&lt;ul&gt;
+&lt;li&gt;html，css&lt;/li&gt;
+&lt;li&gt;提供给所有人看的数据始终不会发生变化！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;动态web&lt;ul&gt;
+&lt;li&gt;淘宝，几乎是所有的网站；&lt;/li&gt;
+&lt;li&gt;提供给所有人看的数据始终会发生变化，每个人在不同的时间，不同的地点看到的信息各不相同！&lt;/li&gt;
+&lt;li&gt;技术栈：Servlet/JSP，ASP，PHP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在Java中，动态web资源开发的技术统称为JavaWeb；&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="狂神说" scheme="http://example.com/categories/%E7%8B%82%E7%A5%9E%E8%AF%B4/"/>
+    
+    <category term="JavaWeb" scheme="http://example.com/categories/%E7%8B%82%E7%A5%9E%E8%AF%B4/JavaWeb/"/>
+    
+    
+    <category term="JavaWeb" scheme="http://example.com/tags/JavaWeb/"/>
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>3月26号计算机二级纠错</title>
@@ -145,8 +184,8 @@
   
   <entry>
     <title>javaweb</title>
-    <link href="http://example.com/2021/03/22/javaweb/"/>
-    <id>http://example.com/2021/03/22/javaweb/</id>
+    <link href="http://example.com/2021/03/22/JavaWeb1/"/>
+    <id>http://example.com/2021/03/22/JavaWeb1/</id>
     <published>2021-03-22T11:12:05.268Z</published>
     <updated>2021-03-22T11:23:24.697Z</updated>
     
@@ -163,7 +202,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;处理数据并生成结果&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;发送处理结果给浏览器&lt;/p&gt;</summary>
+&lt;li&gt;&lt;p&gt;发送处理结果给浏览器&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
     
     
     
