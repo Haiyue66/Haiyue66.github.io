@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-31T06:01:39.327Z</updated>
+  <updated>2021-04-01T11:29:43.529Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mybatis课堂笔记</title>
+    <link href="http://example.com/2021/04/01/Mybatis%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/"/>
+    <id>http://example.com/2021/04/01/Mybatis%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-04-01T11:28:25.734Z</published>
+    <updated>2021-04-01T11:29:43.529Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Mybatis-9-28&quot;&gt;&lt;a href=&quot;#Mybatis-9-28&quot; class=&quot;headerlink&quot; title=&quot;Mybatis-9.28&quot;&gt;&lt;/a&gt;Mybatis-9.28&lt;/h2&gt;&lt;p&gt;环境：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JDK1.8&lt;/li&gt;
+&lt;li&gt;Mysql 5.7&lt;/li&gt;
+&lt;li&gt;maven 3.6.1&lt;/li&gt;
+&lt;li&gt;IDEA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;回顾：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JDBC&lt;/li&gt;
+&lt;li&gt;Mysql&lt;/li&gt;
+&lt;li&gt;Java基础&lt;/li&gt;
+&lt;li&gt;Maven&lt;/li&gt;
+&lt;li&gt;Junit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SSM框架：配置文件的。  最好的方式：看官网文档；&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="狂神说" scheme="http://example.com/categories/%E7%8B%82%E7%A5%9E%E8%AF%B4/"/>
+    
+    <category term="Mybatis" scheme="http://example.com/categories/%E7%8B%82%E7%A5%9E%E8%AF%B4/Mybatis/"/>
+    
+    
+    <category term="MyBatis" scheme="http://example.com/tags/MyBatis/"/>
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaWeb</title>
@@ -49,9 +87,9 @@
     <category term="JavaWeb" scheme="http://example.com/categories/%E7%8B%82%E7%A5%9E%E8%AF%B4/JavaWeb/"/>
     
     
-    <category term="JavaWeb" scheme="http://example.com/tags/JavaWeb/"/>
-    
     <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="JavaWeb" scheme="http://example.com/tags/JavaWeb/"/>
     
   </entry>
   
