@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-06-09T05:57:08.492Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>写hexo博客时报错Template render error (unknown path)出现的原因及解决方法</title>
+    <link href="http://example.com/2023/06/09/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>http://example.com/2023/06/09/%E5%86%99hexo%E5%8D%9A%E5%AE%A2%E6%97%B6%E6%8A%A5%E9%94%99Template%20render%20error%20(unknown%20path)%E5%87%BA%E7%8E%B0%E7%9A%84%E5%8E%9F%E5%9B%A0%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2023-06-09T05:55:51.367Z</published>
+    <updated>2023-06-09T05:57:08.492Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​	今天写博客的时候遇到这么个问题&lt;img src=&quot;https://img.imgdb.cn/item/604d8be85aedab222cc866be.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="markdown" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/markdown/"/>
+    
+    <category term="bug" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/markdown/bug/"/>
+    
+    
+    <category term="markdown" scheme="http://example.com/tags/markdown/"/>
+    
+    <category term="bug" scheme="http://example.com/tags/bug/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Typora教学</title>
+    <link href="http://example.com/2023/06/09/Typora%E6%95%99%E5%AD%A6/"/>
+    <id>http://example.com/2023/06/09/Typora%E6%95%99%E5%AD%A6/</id>
+    <published>2023-06-09T05:55:51.344Z</published>
+    <updated>2023-06-09T05:57:08.471Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Typora-编辑器-————-书写即为美学&quot;&gt;&lt;a href=&quot;#Typora-编辑器-————-书写即为美学&quot; class=&quot;headerlink&quot; title=&quot;Typora 编辑器 ———— 书写即为美学&quot;&gt;&lt;/a&gt;Typora 编辑器 ———— 书写即为美学&lt;/h1&gt;&lt;p&gt;今天讲授内容主要涉及PDF书中 17章第一小节和第五小节 18章第一小节&lt;/p&gt;
+&lt;p&gt;官方网站：&lt;a href=&quot;https://www.typora.io/&quot;&gt;https://www.typora.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;支持平台：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows&lt;/li&gt;
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;li&gt;OSX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;特点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;完美支持 Github 的 Markdown 语法；&lt;/li&gt;
+&lt;li&gt;人性化的书写方式：&lt;ul&gt;
+&lt;li&gt;表格的书写、挪动；&lt;/li&gt;
+&lt;li&gt;图片，超链接，网页表格复制；&lt;/li&gt;
+&lt;li&gt;目录生成；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;支持 LeTex 公式书写；&lt;/li&gt;
+&lt;li&gt;支持 Flowchart，Mermaid 等流程图绘制；&lt;/li&gt;
+&lt;li&gt;emoji，高亮，备注，上标，下标等书写；&lt;/li&gt;
+&lt;li&gt;生成网页，pdf，图片，甚至 word，LeTex 等格式。&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="markdown语法" scheme="http://example.com/tags/markdown%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mybatis课堂笔记</title>
+    <link href="http://example.com/2023/06/09/Mybatis%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/"/>
+    <id>http://example.com/2023/06/09/Mybatis%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/</id>
+    <published>2023-06-09T05:55:51.317Z</published>
+    <updated>2023-06-09T05:57:08.448Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Mybatis-9-28&quot;&gt;&lt;a href=&quot;#Mybatis-9-28&quot; class=&quot;headerlink&quot; title=&quot;Mybatis-9.28&quot;&gt;&lt;/a&gt;Mybatis-9.28&lt;/h2&gt;&lt;p&gt;环境：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JDK1.8&lt;/li&gt;
+&lt;li&gt;Mysql 5.7&lt;/li&gt;
+&lt;li&gt;maven 3.6.1&lt;/li&gt;
+&lt;li&gt;IDEA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;回顾：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JDBC&lt;/li&gt;
+&lt;li&gt;Mysql&lt;/li&gt;
+&lt;li&gt;Java基础&lt;/li&gt;
+&lt;li&gt;Maven&lt;/li&gt;
+&lt;li&gt;Junit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SSM框架：配置文件的。  最好的方式：看官网文档；&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="狂神说" scheme="http://example.com/categories/%E7%8B%82%E7%A5%9E%E8%AF%B4/"/>
+    
+    <category term="Mybatis" scheme="http://example.com/categories/%E7%8B%82%E7%A5%9E%E8%AF%B4/Mybatis/"/>
+    
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+    <category term="MyBatis" scheme="http://example.com/tags/MyBatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>javaweb</title>
+    <link href="http://example.com/2023/06/09/JavaWeb1/"/>
+    <id>http://example.com/2023/06/09/JavaWeb1/</id>
+    <published>2023-06-09T05:55:50.267Z</published>
+    <updated>2023-06-09T05:57:07.439Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;第一章-servlet&quot;&gt;&lt;a href=&quot;#第一章-servlet&quot; class=&quot;headerlink&quot; title=&quot;第一章 servlet&quot;&gt;&lt;/a&gt;第一章 servlet&lt;/h1&gt;&lt;h2 id=&quot;1-概念&quot;&gt;&lt;a href=&quot;#1-概念&quot; class=&quot;headerlink&quot; title=&quot;1.概念&quot;&gt;&lt;/a&gt;1.概念&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;什么是web&lt;/p&gt;
+&lt;p&gt;通过一种网络服务，可使用户通过浏览器提供的界面浏览服务器提供的信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Servlet:是sun公司提供的用于web开发的java程序,我们把这些程序包叫组件，该组件实现了Servlet接口，这些组件叫Servlet&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;有什么用？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;读取客户端发送的数据&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;处理数据并生成结果&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;发送处理结果给浏览器&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="计算机" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="JSP" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/JSP/"/>
+    
+    
+    <category term="JSP" scheme="http://example.com/tags/JSP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaWeb</title>
+    <link href="http://example.com/2023/06/09/JavaWeb/"/>
+    <id>http://example.com/2023/06/09/JavaWeb/</id>
+    <published>2023-06-09T05:55:50.174Z</published>
+    <updated>2023-06-09T05:57:07.395Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;JavaWeb&quot;&gt;&lt;a href=&quot;#JavaWeb&quot; class=&quot;headerlink&quot; title=&quot;JavaWeb&quot;&gt;&lt;/a&gt;JavaWeb&lt;/h1&gt;&lt;p&gt;Java    Web&lt;/p&gt;
+&lt;h2 id=&quot;1、基本概念&quot;&gt;&lt;a href=&quot;#1、基本概念&quot; class=&quot;headerlink&quot; title=&quot;1、基本概念&quot;&gt;&lt;/a&gt;1、基本概念&lt;/h2&gt;&lt;h3 id=&quot;1-1、前言&quot;&gt;&lt;a href=&quot;#1-1、前言&quot; class=&quot;headerlink&quot; title=&quot;1.1、前言&quot;&gt;&lt;/a&gt;1.1、前言&lt;/h3&gt;&lt;p&gt;web开发：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;web，网页的意思  ， &lt;a href=&quot;http://www.baidu.com/&quot;&gt;www.baidu.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;静态web&lt;ul&gt;
+&lt;li&gt;html，css&lt;/li&gt;
+&lt;li&gt;提供给所有人看的数据始终不会发生变化！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;动态web&lt;ul&gt;
+&lt;li&gt;淘宝，几乎是所有的网站；&lt;/li&gt;
+&lt;li&gt;提供给所有人看的数据始终会发生变化，每个人在不同的时间，不同的地点看到的信息各不相同！&lt;/li&gt;
+&lt;li&gt;技术栈：Servlet&amp;#x2F;JSP，ASP，PHP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在Java中，动态web资源开发的技术统称为JavaWeb；&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="狂神说" scheme="http://example.com/categories/%E7%8B%82%E7%A5%9E%E8%AF%B4/"/>
+    
+    <category term="JavaWeb" scheme="http://example.com/categories/%E7%8B%82%E7%A5%9E%E8%AF%B4/JavaWeb/"/>
+    
+    
+    <category term="JavaWeb" scheme="http://example.com/tags/JavaWeb/"/>
+    
+    <category term="编程" scheme="http://example.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月26号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/26/3%E6%9C%8826%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/26/3%E6%9C%8826%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-25T16:00:00.000Z</published>
+    <updated>2023-06-09T07:32:35.756Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.对象的输出流将制定的对象写入到文件的过程，就是将对象序列化的过程对象的输入流将指定序列化好的文件读出来的过程，就是对象反序列化的过程，此时对象所对应的class必须要实现Serializable接口，一般io流涉及到的接口只有Serializable,对象输出的时候还要</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月25号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/25/3%E6%9C%8825%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/25/3%E6%9C%8825%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-24T16:00:00.000Z</published>
+    <updated>2023-06-09T07:32:29.020Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.FileWriter和FileReader类实现文件流的输入和输出&lt;/p&gt;
+&lt;p&gt;2.bu1.addActionListener(new ActionListener() {&lt;/p&gt;
+&lt;p&gt;​	public void</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月24号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/24/3%E6%9C%8824%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/24/3%E6%9C%8824%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-23T16:00:00.000Z</published>
+    <updated>2023-06-09T07:32:22.162Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.只要看到JOptionPane,就要写import javax.swing.*  ps:全是小写。&lt;/p&gt;
+&lt;p&gt;2Container c &amp;#x3D; getContentPane();&lt;/p&gt;
+&lt;p&gt;3.int n &amp;#x3D; Math.round(21*x);</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月15号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/23/3%E6%9C%8815%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/23/3%E6%9C%8815%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-23T10:56:04.000Z</published>
+    <updated>2023-06-09T07:31:00.897Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;JOptionPane-showMessageDialog（Component-parentComponent-Object-message）&quot;&gt;&lt;a href=&quot;#JOptionPane-showMessageDialog（Component-parentComponent-Object-message）&quot; class=&quot;headerlink&quot; title=&quot;JOptionPane.showMessageDialog（Component parentComponent, Object message）&quot;&gt;&lt;/a&gt;JOptionPane.showMessageDialog（Component parentComponent, Object message）&lt;/h2&gt;&lt;p&gt;讲解连接： &lt;a href=&quot;https://blog.csdn.net/weixin_43876121/article/details/100982551&quot;&gt;https://blog.csdn.net/weixin_43876121/article/details/100982551&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;System-exit-0-用法与作用&quot;&gt;&lt;a href=&quot;#System-exit-0-用法与作用&quot; class=&quot;headerlink&quot; title=&quot;System.exit(0)用法与作用&quot;&gt;&lt;/a&gt;System.exit(0)用法与作用&lt;/h2&gt;&lt;p&gt;讲解链接： &lt;a href=&quot;https://blog.csdn.net/qq_37894053/article/details/82802606&quot;&gt;https://blog.csdn.net/qq_37894053/article/details/82802606&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;compareTo-方法&quot;&gt;&lt;a href=&quot;#compareTo-方法&quot; class=&quot;headerlink&quot; title=&quot;compareTo()方法&quot;&gt;&lt;/a&gt;compareTo()方法&lt;/h3&gt;&lt;p&gt;讲解链接: &lt;a href=&quot;https://www.cnblogs.com/wxbblogs/p/6815927.html&quot;&gt;https://www.cnblogs.com/wxbblogs/p/6815927.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;​				&lt;a href=&quot;https://www.cnblogs.com/codeggs/p/11302541.html&quot;&gt;https://www.cnblogs.com/codeggs/p/11302541.html&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>About Me</title>
+    <link href="http://example.com/2021/03/23/about/"/>
+    <id>http://example.com/2021/03/23/about/</id>
+    <published>2021-03-23T10:56:04.000Z</published>
+    <updated>2023-06-09T05:57:07.294Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;A Student, live in Nanjing, China.&lt;/p&gt;
+&lt;p&gt;姓名：吴海岳 &lt;/p&gt;
+&lt;p&gt;现居：南京 &lt;/p&gt;
+&lt;p&gt;GitHub: &lt;a href=&quot;https://github.com/Haiyue66&quot;&gt;Haiyue66&lt;/a&gt; </summary>
+        
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="http://example.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月23号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/23/3%E6%9C%8823%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/23/3%E6%9C%8823%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-22T16:00:00.000Z</published>
+    <updated>2023-06-09T07:32:15.549Z</updated>
+    
+    
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; java.applet.*;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; java.awt.Graphics;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//*********Found********&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title class_&quot;&gt;Java_1&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;title class_&quot;&gt;Applet&lt;/span&gt; &amp;#123;  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title function_&quot;&gt;paint&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;( Graphics g )&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//*********Found********&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      g.drawString( &lt;span class=&quot;string&quot;&gt;&amp;quot;欢迎你来参加Java 语言考试!&amp;quot;&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;25&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;25&lt;/span&gt; );&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;       &lt;span class=&quot;comment&quot;&gt;//drawString()是将需要显示的内容在窗口给定坐标显示出来&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;2.继承类有JFrame,JPanel,Applet,实在不行的话，每个都试一遍吧&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月22号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/22/3%E6%9C%8822%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/22/3%E6%9C%8822%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-21T16:00:00.000Z</published>
+    <updated>2023-06-09T07:32:07.646Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;1.JFrame窗口隐藏或者消除的方法是dispose&lt;/p&gt;
+&lt;p&gt;2.用getContentPane()方法获得JFrame的内容面板，再对其加入组件，加入组件的方法是add()&lt;/p&gt;
+&lt;p&gt;3.继承ActionListener接口就要重写actionPerformed（）方法&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title class_&quot;&gt;Java_2&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//矩阵代码，最好多看几遍&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title function_&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(String args[])&lt;/span&gt; &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; [][]a = &amp;#123;&amp;#123;&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;&amp;#125;, &amp;#123;&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;&amp;#125;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; [][]b = &amp;#123;&amp;#123;&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;&amp;#125;, &amp;#123;&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;9&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;, -&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;&amp;#125;, &amp;#123;&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;, -&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;, -&lt;span class=&quot;number&quot;&gt;18&lt;/span&gt;&amp;#125;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;comment&quot;&gt;//*********Found**********&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; [][]c = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;title class_&quot;&gt;int&lt;/span&gt;[a[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;].length][b[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;].length];&lt;span class=&quot;comment&quot;&gt;//设置数组c的大小，最好背下来&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; (&lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; i &amp;lt; &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;; i++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;comment&quot;&gt;//*********Found**********&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; (&lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; j &amp;lt; &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;; j++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                &lt;span class=&quot;comment&quot;&gt;//*********Found**********&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                c[i][j]=&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; (&lt;span class=&quot;type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;variable&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; k &amp;lt; &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;; k++) &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                    &lt;span class=&quot;comment&quot;&gt;//*********Found**********&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                    c[i][j] += a[i][k]*b[k][j];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;                System.out.print(c[i][j] + &lt;span class=&quot;string&quot;&gt;&amp;quot;  &amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            System.out.println();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月19号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/19/3%E6%9C%8819%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/19/3%E6%9C%8819%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-18T16:00:00.000Z</published>
+    <updated>2023-06-09T07:31:58.755Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.b ^</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月18号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/18/3%E6%9C%8818%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/18/3%E6%9C%8818%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-17T16:00:00.000Z</published>
+    <updated>2023-06-09T07:31:50.935Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1：JTextArea,JOptionPane都是属于swing包中的类，所以需要导入swing包（import</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月17号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/17/3%E6%9C%8817%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    <id>http://example.com/2021/03/17/3%E6%9C%8817%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/</id>
+    <published>2021-03-16T16:00:00.000Z</published>
+    <updated>2023-06-09T07:31:42.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.ActionListener是一个接口，所有继承ActionListener的类都要重写actionperformed方法，因为actionperformed是一个抽象方法，只要使用ActionListener接口就要重写，一般情况下，这是在编写GUI程序时，组件发生“</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3月16号计算机二级纠错</title>
+    <link href="http://example.com/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/"/>
+    <id>http://example.com/2021/03/16/3%E6%9C%8816%E5%8F%B7%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7%E7%BA%A0%E9%94%99/</id>
+    <published>2021-03-15T16:00:00.000Z</published>
+    <updated>2023-06-09T07:31:17.244Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;getName（）方法用来获取线程的名字&lt;/p&gt;
+&lt;p&gt;Java Applet： &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="计算机二级" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+    
+    <category term="计算机二级" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一个博客</title>
+    <link href="http://example.com/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2021/03/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-03-12T16:00:00.000Z</published>
+    <updated>2023-06-09T07:33:00.375Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;​	时隔一年，我终于再次把博客搭建起来了，上一次玩博客还是在2019年年底2020年初的时候，那个时候看到别人漂亮的博客，心里顿时痒痒的，也忍不住自己去搭建一个漂亮的博客，但是还没等我把要学习的技术学完，我就不得不放弃博客，转去考研了，现在是2021年3月13号，考研结束了</summary>
+        
+      
+    
+    
+    
+    <category term="日记" scheme="http://example.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+    <category term="大学生活" scheme="http://example.com/tags/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+</feed>
