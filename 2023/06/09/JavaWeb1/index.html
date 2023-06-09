@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>javaweb |  Hexo</title>
+      <title>javaweb |  WHY</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -41,7 +41,7 @@
           font-size: 1.6rem;
         }
       </style>
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="WHY" type="application/atom+xml">
 </head>
   </html>
 </html>
@@ -617,7 +617,7 @@ resp.sendRedirect("/servlet/day4/2.jsp"+";jsessionid="+id);
    
   <nav class="article-nav">
     
-      <a href="/2023/06/09/Mybatis%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/" class="article-nav-link">
+      <a href="/2023/06/09/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%8B%82%E7%A5%9E%E8%AF%B4/Mybatis%E8%AF%BE%E5%A0%82%E7%AC%94%E8%AE%B0/" class="article-nav-link">
         <strong class="article-nav-caption">上一篇</strong>
         <div class="article-nav-title">
           
@@ -627,7 +627,7 @@ resp.sendRedirect("/servlet/day4/2.jsp"+";jsessionid="+id);
       </a>
     
     
-      <a href="/2023/06/09/JavaWeb/" class="article-nav-link">
+      <a href="/2023/06/09/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%8B%82%E7%A5%9E%E8%AF%B4/JavaWeb/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
         <div class="article-nav-title">JavaWeb</div>
       </a>
@@ -655,7 +655,7 @@ resp.sendRedirect("/servlet/day4/2.jsp"+";jsessionid="+id);
       <li>
         Copyrights &copy;
         2015-2023
-        <i class="ri-heart-fill heart_icon"></i> John Doe
+        <i class="ri-heart-fill heart_icon"></i> 吴海岳
       </li>
     </ul>
     <ul>
@@ -707,7 +707,7 @@ resp.sendRedirect("/servlet/day4/2.jsp"+";jsessionid="+id);
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="Hexo"></a>
+    <a href="/"><img src="/images/ayer-side.svg" alt="WHY"></a>
   </div>
   
   <ul class="nav nav-main">
@@ -1004,42 +1004,6 @@ resp.sendRedirect("/servlet/day4/2.jsp"+";jsessionid="+id);
 
     
     
-<script>
-  const password = "123456";
-  const lock_password = window.sessionStorage.getItem("lock_password");
-  console.log(password, lock_password);
-  if (lock_password !== password) {
-    Swal.fire({
-      title: "Please enter password",
-      input: "text",
-      inputAttributes: {
-        autocapitalize: "off",
-      },
-      showCancelButton: false,
-      showLoaderOnConfirm: true,
-      allowOutsideClick: false,
-      confirmButtonText: "Ok",
-    }).then((result) => {
-      console.log(result);
-      if (result.isConfirmed) {
-        console.log(password);
-        if (result.value === password) {
-          window.sessionStorage.setItem("lock_password", result.value);
-        } else {
-          Swal.fire({
-            icon: "error",
-            title: "Incorrect password, please try again",
-            confirmButtonText: "Ok",
-            allowOutsideClick: false,
-          }).then(() => {
-            window.location.reload();
-          });
-        }
-      }
-    });
-  }
-</script>
-
 
   </div>
 </body>
